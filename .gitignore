@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+
+# Bulk data (registry copied with checksum; models shared, not committed)
+data/models/
+
+# Logs
+*.log
