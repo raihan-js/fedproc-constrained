@@ -1,0 +1,1742 @@
+[
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 26.2,
+      "response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Procurement of Drones\"\n}"
+    },
+    "enum": {
+      "cited": "52.222-7",
+      "outcome": "substitution",
+      "tokens_per_s": 41.6,
+      "response": "{\"clause\":\"52.222-7\",\"title\":\"Procurement of Small Business Concerns\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 39.5,
+      "response": "{\"clause\":  ,\"title\": \"16.503\"}"
+    },
+    "posthoc": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.8,
+      "response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Procurement of Drones\"\n}",
+      "first_response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Procurement of Drones\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.5,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Quantum-Resistant Cryptography\"\n}"
+    },
+    "enum": {
+      "cited": "252.227-7001",
+      "outcome": "substitution",
+      "tokens_per_s": 42.9,
+      "response": "{\"clause\": \"252.227-7001\", \"title\": \"Quantum Cryptography Requirements for Federal Field Radios\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 44.8,
+      "response": "{\"clause\":  ,\"title\": \"FAR 52.225-16: Quantum Cryptography and Quantum Key Distribution\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.5,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Quantum-Resistant Cryptography\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Quantum-Resistant Cryptography\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.2,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Contract Clauses\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 41.2,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Contract Clauses for AI-Generated Proposal Writing Services\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.1,
+      "response": "{\"clause\":  , \"title\": \"FAR 52.219-16\"}"
+    },
+    "posthoc": {
+      "cited": "48.401",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.2,
+      "response": "{\n  \"clause\": \"48.401\",\n  \"title\": \"Contract Clauses - Intellectual Property\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Contract Clauses\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.6,
+      "response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Commercial Space Transportation\"\n}"
+    },
+    "enum": {
+      "cited": "52.252-1",
+      "outcome": "substitution",
+      "tokens_per_s": 41.4,
+      "response": "{\"clause\": \"52.252-1\", \"title\": \"Commercial Space Transportation\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.3,
+      "response": "{\"clause\":  ,\"title\": \"Commercial Space Transportation Services Contracts\"}"
+    },
+    "posthoc": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.0,
+      "response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Commercial Space Transportation\"\n}",
+      "first_response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Commercial Space Transportation\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1502",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.7,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1502\",\n  \"title\": \"Set Asides and Other Procurement Practices\"\n}"
+    },
+    "enum": {
+      "cited": "52.242-17",
+      "outcome": "substitution",
+      "tokens_per_s": 41.9,
+      "response": "{\"clause\": \"52.242-17\", \"title\": \"Set-Aside for Small Business Participation\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.9,
+      "response": "{\"clause\":   ,\"title\": \"Set-Asides for Small Business Participation\"}"
+    },
+    "posthoc": {
+      "cited": "48.201",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.1,
+      "response": "{\n  \"clause\": \"48.201\",\n  \"title\": \"Set-Aside Requirements\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1502\",\n  \"title\": \"Set Asides and Other Procurement Practices\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.232-19",
+      "outcome": "substitution",
+      "tokens_per_s": 47.4,
+      "response": "{\n  \"clause\": \"52.232-19\",\n  \"title\": \"Contract Clauses - Cafeteria Meal Service\"\n}"
+    },
+    "enum": {
+      "cited": "52.232-22",
+      "outcome": "substitution",
+      "tokens_per_s": 41.3,
+      "response": "{\"clause\": \"52.232-22\", \"title\": \"Cafeteria Meal Service Contracts\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.4,
+      "response": "{\"clause\":    ,\"title\": \"FAR 52.219-10: Cafeteria Meal Service Contracts\"}"
+    },
+    "posthoc": {
+      "cited": "52.232-19",
+      "outcome": "substitution",
+      "tokens_per_s": 47.1,
+      "response": "{\n  \"clause\": \"52.232-19\",\n  \"title\": \"Contract Clauses - Cafeteria Meal Service\"\n}",
+      "first_response": "{\n  \"clause\": \"52.232-19\",\n  \"title\": \"Contract Clauses - Cafeteria Meal Service\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.401",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.2,
+      "response": "{\n  \"clause\": \"48.401\",\n  \"title\": \"Contract Clauses - General\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 40.0,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Contract Audit and Evaluation\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.8,
+      "response": "{\"clause\":   , \"title\": \"FAR 52.219-16\"}"
+    },
+    "posthoc": {
+      "cited": "48UW-012",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.4,
+      "response": "{\n  \"clause\": \"48UW-012\",\n  \"title\": \"Contract Clause - Requirements for Blockchain-Based Invoice Auditing\"\n}",
+      "first_response": "{\n  \"clause\": \"48.401\",\n  \"title\": \"Contract Clauses - General\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.401",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.7,
+      "response": "{\n  \"clause\": \"48.401\",\n  \"title\": \"Regulations Governing the Use of Federal Property\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 42.0,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Hiring of Individuals for Government-Related Events\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.3,
+      "response": "{\"clause\":   , \"title\": \"Hiring of Individuals\" }"
+    },
+    "posthoc": {
+      "cited": "48.401",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.1,
+      "response": "{\n  \"clause\": \"48.401\",\n  \"title\": \"Regulations Governing the Use of Federal Property\"\n}",
+      "first_response": "{\n  \"clause\": \"48.401\",\n  \"title\": \"Regulations Governing the Use of Federal Property\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.247-0136",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.9,
+      "response": "{\n  \"clause\": \"52.247-0136\",\n  \"title\": \"Submarine Service\"\n}"
+    },
+    "enum": {
+      "cited": "52.227-7",
+      "outcome": "substitution",
+      "tokens_per_s": 42.9,
+      "response": "{\"clause\": \"52.227-7\", \"title\": \"Submarine Fleet Training and Exercises\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.8,
+      "response": "{\"clause\":    ,\"title\": \"FAR 52.250-10: Submarine Use and Operation\"}"
+    },
+    "posthoc": {
+      "cited": "52.247-103",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.8,
+      "response": "{\n  \"clause\": \"52.247-103\",\n  \"title\": \"Submarine Service\"\n}",
+      "first_response": "{\n  \"clause\": \"52.247-0136\",\n  \"title\": \"Submarine Service\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48UW-0125",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.8,
+      "response": "{\n  \"clause\": \"48UW-0125\",\n  \"title\": \"Procurement of Artisanal Cheese\"\n}"
+    },
+    "enum": {
+      "cited": "52.217-7",
+      "outcome": "substitution",
+      "tokens_per_s": 42.7,
+      "response": "{\"clause\": \"52.217-7\", \"title\": \"Procurement of Artisanal Cheese for Military Rations\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.5,
+      "response": "{\"clause\":    ,\"title\": \"Procurement of Artisanal Cheese for Military Rations\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.6,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Procurement of Artisanal Cheese\"\n}",
+      "first_response": "{\n  \"clause\": \"48UW-0125\",\n  \"title\": \"Procurement of Artisanal Cheese\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.301",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.7,
+      "response": "{\n  \"clause\": \"48.301\",\n  \"title\": \"Overtime Pay\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 41.5,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Overtime Pay for Contracted Employees\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.9,
+      "response": "{\"clause\":  ,\"title\": \"Overtime Pay for Circus Performers\"}"
+    },
+    "posthoc": {
+      "cited": "48.301",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.5,
+      "response": "{\n  \"clause\": \"48.301\",\n  \"title\": \"Overtime Pay\"\n}",
+      "first_response": "{\n  \"clause\": \"48.301\",\n  \"title\": \"Overtime Pay\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.6,
+      "response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Leasing of Aircraft\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 42.4,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Leasing of Aircraft\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 43.2,
+      "response": "{\"clause\":  ,\"title\": \"FAR 52.219-16: Leasing of Aircraft for Border Surveillance\"}"
+    },
+    "posthoc": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.0,
+      "response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Leasing of Aircraft\"\n}",
+      "first_response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Leasing of Aircraft\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.9,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Compostable Packaging\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-1",
+      "outcome": "substitution",
+      "tokens_per_s": 44.2,
+      "response": "{\"clause\": \"52.212-1\", \"title\": \"Compliance with Federal Acquisition Regulations (FAR) and Department of Defense (DoD) Acquisition Regulations\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.2,
+      "response": "{\"clause\":    ,\"title\": \"Compostable Packaging in Ammunition Shipments\"}"
+    },
+    "posthoc": {
+      "cited": "48 CFR 252.7301",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.6,
+      "response": "{\n  \"clause\": \"48 CFR 252.7301\",\n  \"title\": \"Compliance with Federal Acquisition Regulations\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Compostable Packaging\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.0,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Pet Therapy Programs\"\n}"
+    },
+    "enum": {
+      "cited": "52.227-7",
+      "outcome": "substitution",
+      "tokens_per_s": 42.1,
+      "response": "{\"clause\": \"52.227-7\", \"title\": \"Pet Therapy Programs at Federal Buildings\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.6,
+      "response": "{\"clause\":  ,\"title\": \"Pet Therapy Programs at Federal Buildings\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.9,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Federal Property and Administrative Services Act of 1949\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Pet Therapy Programs\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.201",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.0,
+      "response": "{\n  \"clause\": \"48.201\",\n  \"title\": \"Set-Asides\"\n}"
+    },
+    "enum": {
+      "cited": "52.227-7",
+      "outcome": "substitution",
+      "tokens_per_s": 42.2,
+      "response": "{\"clause\": \"52.227-7\", \"title\": \"Set-Asides for Small Business Participation\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.9,
+      "response": "{\"clause\":    ,\"title\": \"Set-Asides for Professional Video Game Tournament Organizers\"}"
+    },
+    "posthoc": {
+      "cited": "48.501",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.3,
+      "response": "{\n  \"clause\": \"48.501\",\n  \"title\": \"Set-Asides\"\n}",
+      "first_response": "{\n  \"clause\": \"48.201\",\n  \"title\": \"Set-Asides\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.217-8034",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.4,
+      "response": "{\n  \"clause\": \"52.217-8034\",\n  \"title\": \"Social Media Influencer Recruitment\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 42.8,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Social Media Influencer Recruitment\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.1,
+      "response": "{\"clause\":   ,\"title\": \"Hiring Social Media Influencers for Recruitment\"}"
+    },
+    "posthoc": {
+      "cited": "52.217-60",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.5,
+      "response": "{\n  \"clause\": \"52.217-60\",\n  \"title\": \"Hiring Social Media Influencers\"\n}",
+      "first_response": "{\n  \"clause\": \"52.217-8034\",\n  \"title\": \"Social Media Influencer Recruitment\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 13235",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.3,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 13235\",\n  \"title\": \"Procurement of Vintage Typewriters\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 43.4,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Procurement of Vintage Typewriters for Archival Offices\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 39.9,
+      "response": "{\"clause\":    ,\"title\": \"FAR 52.219-10\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 13235",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.7,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 13235\",\n  \"title\": \"Procurement of Vintage Typewriters\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 13235\",\n  \"title\": \"Procurement of Vintage Typewriters\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.217-80",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.0,
+      "response": "{\n  \"clause\": \"52.217-80\",\n  \"title\": \"Maintenance of Equipment\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 38.9,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Maintenance of Equipment and Supplies\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.3,
+      "response": "{\"clause\":   , \"title\": \"FAR 52.219-10 Maintenance of Equipment\"  }"
+    },
+    "posthoc": {
+      "cited": "52.217-80",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.6,
+      "response": "{\n  \"clause\": \"52.217-80\",\n  \"title\": \"Maintenance of Equipment\"\n}",
+      "first_response": "{\n  \"clause\": \"52.217-80\",\n  \"title\": \"Maintenance of Equipment\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.217-80",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.8,
+      "response": "{\n  \"clause\": \"52.217-80\",\n  \"title\": \"Office Plant Care Service Agreements\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 42.5,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Office Plant Care Service Agreements\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.9,
+      "response": "{\"clause\":    , \"title\": \"Office Plant Care Service Agreements\"}"
+    },
+    "posthoc": {
+      "cited": "52.217-30",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.0,
+      "response": "{\n  \"clause\": \"52.217-30\",\n  \"title\": \"Office Plant Care Service Agreements\"\n}",
+      "first_response": "{\n  \"clause\": \"52.217-80\",\n  \"title\": \"Office Plant Care Service Agreements\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "452.103",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.2,
+      "response": "{\n  \"clause\": \"452.103\",\n  \"title\": \"Guided Meditation\"\n}"
+    },
+    "enum": {
+      "cited": "52.227-7",
+      "outcome": "substitution",
+      "tokens_per_s": 42.7,
+      "response": "{\"clause\": \"52.227-7\", \"title\": \"Guided Meditation for Air Traffic Controllers\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.6,
+      "response": "{\"clause\":   ,\"title\": \"Guided Meditation for Air Traffic Controllers\"}"
+    },
+    "posthoc": {
+      "cited": "452.103",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.6,
+      "response": "{\n  \"clause\": \"452.103\",\n  \"title\": \"Guided Meditation\"\n}",
+      "first_response": "{\n  \"clause\": \"452.103\",\n  \"title\": \"Guided Meditation\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.5,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Snow Removal\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 42.5,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Snow Removal on Tropical Installations\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.0,
+      "response": "{\"clause\":   ,\"title\": \"Snow Removal on Tropical Installations\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.9,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Snow Removal\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Snow Removal\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.1,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Procurement of Musical Instruments\"\n}"
+    },
+    "enum": {
+      "cited": "52.227-7",
+      "outcome": "substitution",
+      "tokens_per_s": 42.6,
+      "response": "{\"clause\": \"52.227-7\", \"title\": \"Procurement of Musical Instruments\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.8,
+      "response": "{\"clause\":    ,\"title\": \"Procurement of Musical Instruments\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.4,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Procurement of Musical Instruments\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Procurement of Musical Instruments\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.201",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.4,
+      "response": "{\n  \"clause\": \"48.201\",\n  \"title\": \"Set-Aside Requirements\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 42.8,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Set-Aside for Small Business Participation\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.7,
+      "response": "{\"clause\":    ,\"title\": \"Set-Aside Requirements for Mime Troupes at Embassy Events\"}"
+    },
+    "posthoc": {
+      "cited": "48.201",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.5,
+      "response": "{\n  \"clause\": \"48.201\",\n  \"title\": \"Set-Aside Requirements\"\n}",
+      "first_response": "{\n  \"clause\": \"48.201\",\n  \"title\": \"Set-Aside Requirements\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.247-103",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.0,
+      "response": "{\n  \"clause\": \"52.247-103\",\n  \"title\": \"Leasing of Food Trucks\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-1",
+      "outcome": "substitution",
+      "tokens_per_s": 41.7,
+      "response": "{\"clause\": \"52.212-1\", \"title\": \"Leasing of Food Trucks for Disaster Relief\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 43.6,
+      "response": "{\"clause\":    ,\"title\": \"FAR 52.219-10: Leasing of Food Trucks for Disaster Relief\"}"
+    },
+    "posthoc": {
+      "cited": "52.217-30",
+      "outcome": "fabrication",
+      "tokens_per_s": 44.2,
+      "response": "{\n  \"clause\": \"52.217-30\",\n  \"title\": \"Leasing of Food Trucks\"\n}",
+      "first_response": "{\n  \"clause\": \"52.247-103\",\n  \"title\": \"Leasing of Food Trucks\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.501",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.4,
+      "response": "{\n  \"clause\": \"48.501\",\n  \"title\": \"Drone Light Show Contracts\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 41.9,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Drone Light Show Contracts\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.5,
+      "response": "{\"clause\":  ,\"title\": \"FAR 52.250-16\"}"
+    },
+    "posthoc": {
+      "cited": "48.401",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.1,
+      "response": "{\n  \"clause\": \"48.401\",\n  \"title\": \"Drone Light Show Contracts\"\n}",
+      "first_response": "{\n  \"clause\": \"48.501\",\n  \"title\": \"Drone Light Show Contracts\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.2,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Federal Acquisition Regulation (FAR)\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 42.5,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Regulations for Axe-Throwing Team-Building Vendors\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.7,
+      "response": "{\"clause\":   ,\"title\": \"FAR 52.219-10\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.2,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Federal Acquisition Regulation (FAR)\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Federal Acquisition Regulation (FAR)\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.217-8034",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.3,
+      "response": "{\n  \"clause\": \"52.217-8034\",\n  \"title\": \"Veterans Hospitals\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-1",
+      "outcome": "substitution",
+      "tokens_per_s": 43.1,
+      "response": "{\"clause\": \"52.212-1\", \"title\": \"Veterans' Preference in Contracting\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 43.8,
+      "response": "{\"clause\":    ,\"title\": \"FAR 52.219-10: Mobile Petting Zoo Visit to Veterans Hospitals\"}"
+    },
+    "posthoc": {
+      "cited": "52.217-80",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.2,
+      "response": "{\n  \"clause\": \"52.217-80\",\n  \"title\": \"Veterans' Preference\"\n}",
+      "first_response": "{\n  \"clause\": \"52.217-8034\",\n  \"title\": \"Veterans Hospitals\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.501",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.5,
+      "response": "{\n  \"clause\": \"48.501\",\n  \"title\": \"Procurement of Life-Sized Cardboard Cutouts\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 42.8,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Procurement of Life-Sized Cardboard Cutouts\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.8,
+      "response": "{\"clause\":  ,\"title\": \"Procurement of Life-Sized Cardboard Cutouts\"}"
+    },
+    "posthoc": {
+      "cited": "48.501",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.8,
+      "response": "{\n  \"clause\": \"48.501\",\n  \"title\": \"Procurement of Life-Sized Cardboard Cutouts\"\n}",
+      "first_response": "{\n  \"clause\": \"48.501\",\n  \"title\": \"Procurement of Life-Sized Cardboard Cutouts\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.5,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Federal Acquisition Regulation (FAR)\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 42.4,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Coordination of Flash Mob Activities\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.3,
+      "response": "{\"clause\":   , \"title\": \"Coordination of Flash Mob Activities\"}"
+    },
+    "posthoc": {
+      "cited": "48.401",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.8,
+      "response": "{\n  \"clause\": \"48.401\",\n  \"title\": \"Coordination of Activities\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Federal Acquisition Regulation (FAR)\"\n}"
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.201",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.1,
+      "response": "{\n  \"clause\": \"48.201\",\n  \"title\": \"Set-Asides\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-1",
+      "outcome": "substitution",
+      "tokens_per_s": 42.7,
+      "response": "{\"clause\": \"52.212-1\", \"title\": \"Set-Asides for Small Business Participation\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.3,
+      "response": "{\"clause\":  , \"title\": \"Professional Wrestling Event Promoters\" }"
+    },
+    "posthoc": {
+      "cited": "48.201",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.3,
+      "response": "{\n  \"clause\": \"48.201\",\n  \"title\": \"Set-Asides\"\n}",
+      "first_response": "{\n  \"clause\": \"48.201\",\n  \"title\": \"Set-Asides\"\n}"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.212-4",
+    "unconstrained": {
+      "cited": "52.212-4",
+      "outcome": "correct",
+      "tokens_per_s": 46.8,
+      "response": "```json\n{\n  \"clause\": \"52.212-4\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.212-5",
+      "outcome": "substitution",
+      "tokens_per_s": 40.1,
+      "response": "{\"clause\": \"52.212-5\", \"title\": \"Contractor's Access to Government Facilities and Property\"}"
+    },
+    "span": {
+      "cited": "52.212-5",
+      "outcome": "substitution",
+      "tokens_per_s": 43.1,
+      "response": "{\"clause\": \"52.212-5\", \"title\": \"Contractor's Access to Government Facilities and Property\"}"
+    },
+    "posthoc": {
+      "cited": "52.212-4",
+      "outcome": "correct",
+      "tokens_per_s": 47.1,
+      "response": "```json\n{\n  \"clause\": \"52.212-4\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"52.212-4\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.219-9",
+    "unconstrained": {
+      "cited": "52.219-7",
+      "outcome": "substitution",
+      "tokens_per_s": 48.3,
+      "response": "```json\n{\n  \"clause\": \"52.219-7\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.219-8",
+      "outcome": "substitution",
+      "tokens_per_s": 42.8,
+      "response": "{\"clause\": \"52.219-8\", \"title\": \"Contractor's Right to Terminate for Convenience\"}"
+    },
+    "span": {
+      "cited": "52.219-8",
+      "outcome": "substitution",
+      "tokens_per_s": 43.3,
+      "response": "{\"clause\": \"52.219-8\", \"title\": \"Contractor's Right to Terminate for Convenience\"}"
+    },
+    "posthoc": {
+      "cited": "52.219-7",
+      "outcome": "substitution",
+      "tokens_per_s": 48.1,
+      "response": "```json\n{\n  \"clause\": \"52.219-7\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"52.219-7\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.204-7",
+    "unconstrained": {
+      "cited": "52.204-7",
+      "outcome": "correct",
+      "tokens_per_s": 47.6,
+      "response": "```json\n{\n  \"clause\": \"52.204-7\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Sex\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.204-8",
+      "outcome": "substitution",
+      "tokens_per_s": 42.8,
+      "response": "{\"clause\": \"52.204-8\", \"title\": \"Contractor's Access to Government Property\"}"
+    },
+    "span": {
+      "cited": "52.204-8",
+      "outcome": "substitution",
+      "tokens_per_s": 39.8,
+      "response": "{\"clause\": \"52.204-8\", \"title\": \"Contractor's Access to Government Property\"}"
+    },
+    "posthoc": {
+      "cited": "52.204-7",
+      "outcome": "correct",
+      "tokens_per_s": 46.3,
+      "response": "```json\n{\n  \"clause\": \"52.204-7\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Sex\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"52.204-7\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Sex\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.222-50",
+    "unconstrained": {
+      "cited": "52.222-73",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.5,
+      "response": "```json\n{\n  \"clause\": \"52.222-73\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.222-51",
+      "outcome": "substitution",
+      "tokens_per_s": 42.6,
+      "response": "{\"clause\": \"52.222-51\", \"title\": \"Contractor's Right to Terminate for Convenience\"}"
+    },
+    "span": {
+      "cited": "52.222-51",
+      "outcome": "substitution",
+      "tokens_per_s": 41.1,
+      "response": "{\"clause\": \"52.222-51\", \"title\": \"Contractor's Right to Terminate for Convenience\"}"
+    },
+    "posthoc": {
+      "cited": "48UW-03",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.9,
+      "response": "```json\n{\n  \"clause\": \"48UW-03\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Race, Color, National Origin, Sex, Age, Disability, Religion\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"52.222-73\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "252.225-7042",
+    "unconstrained": {
+      "cited": "FAR 252.225-7043",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.2,
+      "response": "```json\n{\n  \"clause\": \"FAR 252.225-7043\",\n  \"title\": \"Contractor's Performance and Compliance with Contract Terms\"\n}\n```"
+    },
+    "enum": {
+      "cited": "252.225-7043",
+      "outcome": "substitution",
+      "tokens_per_s": 42.9,
+      "response": "{\"clause\": \"252.225-7043\", \"title\": \"Contractor's Performance and Compliance with Contract Terms\"}"
+    },
+    "span": {
+      "cited": "252.225-7043",
+      "outcome": "substitution",
+      "tokens_per_s": 41.5,
+      "response": "{\"clause\": \"252.225-7043\", \"title\": \"Contractor's Performance and Compliance with Contract Terms\"}"
+    },
+    "posthoc": {
+      "cited": "252.225-7043",
+      "outcome": "substitution",
+      "tokens_per_s": 47.0,
+      "response": "```json\n{\n  \"clause\": \"252.225-7043\",\n  \"title\": \"Contractor's Access to Government Facilities\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"FAR 252.225-7043\",\n  \"title\": \"Contractor's Performance and Compliance with Contract Terms\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.215-1",
+    "unconstrained": {
+      "cited": "52.215-3",
+      "outcome": "substitution",
+      "tokens_per_s": 44.4,
+      "response": "```json\n{\n  \"clause\": \"52.215-3\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Race, Color, Religion, Sex, National Origin, Age, Disability, or Genetic Information\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.215-2",
+      "outcome": "substitution",
+      "tokens_per_s": 39.6,
+      "response": "{\"clause\": \"52.215-2\", \"title\": \"Contractor's Access to Government Property\"}"
+    },
+    "span": {
+      "cited": "52.215-2",
+      "outcome": "substitution",
+      "tokens_per_s": 40.1,
+      "response": "{\"clause\": \"52.215-2\", \"title\": \"Contractor's Access to Government Property\"}"
+    },
+    "posthoc": {
+      "cited": "52.215-3",
+      "outcome": "substitution",
+      "tokens_per_s": 46.0,
+      "response": "```json\n{\n  \"clause\": \"52.215-3\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Race, Color, Religion, Sex, National Origin, Age, Disability, or Genetic Information\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"52.215-3\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Race, Color, Religion, Sex, National Origin, Age, Disability, or Genetic Information\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.216-18",
+    "unconstrained": {
+      "cited": "48U30",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.6,
+      "response": "```json\n{\n  \"clause\": \"48U30\",\n  \"title\": \"Government Contracts - Procurement of Goods and Services\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.216-19",
+      "outcome": "substitution",
+      "tokens_per_s": 40.9,
+      "response": "{\"clause\": \"52.216-19\", \"title\": \"Contractor's Access to Government Facilities and Property\"}"
+    },
+    "span": {
+      "cited": "52.216-19",
+      "outcome": "substitution",
+      "tokens_per_s": 40.4,
+      "response": "{\"clause\": \"52.216-19\", \"title\": \"Contractor's Access to Government Facilities and Property\"}"
+    },
+    "posthoc": {
+      "cited": "48UW003",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.2,
+      "response": "```json\n{\n  \"clause\": \"48UW003\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Race, Color, National Origin, Sex, Age, Disability, Religion\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"48U30\",\n  \"title\": \"Government Contracts - Procurement of Goods and Services\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.225-1",
+    "unconstrained": {
+      "cited": "52.227-1",
+      "outcome": "substitution",
+      "tokens_per_s": 45.1,
+      "response": "```json\n{\n  \"clause\": \"52.227-1\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.225-2",
+      "outcome": "substitution",
+      "tokens_per_s": 39.9,
+      "response": "{\"clause\": \"52.225-2\", \"title\": \"Contractor's Access to Government Property\"}"
+    },
+    "span": {
+      "cited": "52.225-2",
+      "outcome": "substitution",
+      "tokens_per_s": 39.1,
+      "response": "{\"clause\": \"52.225-2\", \"title\": \"Contractor's Access to Government Property\"}"
+    },
+    "posthoc": {
+      "cited": "52.227-1",
+      "outcome": "substitution",
+      "tokens_per_s": 44.8,
+      "response": "```json\n{\n  \"clause\": \"52.227-1\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"52.227-1\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.232-32",
+    "unconstrained": {
+      "cited": "48U10",
+      "outcome": "fabrication",
+      "tokens_per_s": 44.3,
+      "response": "```json\n{\n  \"clause\": \"48U10\",\n  \"title\": \"Government Contracts - Procurement of Goods and Services\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.232-33",
+      "outcome": "substitution",
+      "tokens_per_s": 41.1,
+      "response": "{\"clause\": \"52.232-33\", \"title\": \"Contractor's Right to Terminate for Convenience\"}"
+    },
+    "span": {
+      "cited": "52.232-33",
+      "outcome": "substitution",
+      "tokens_per_s": 38.9,
+      "response": "{\"clause\": \"52.232-33\", \"title\": \"Contractor's Right to Terminate for Convenience\"}"
+    },
+    "posthoc": {
+      "cited": "48UW106",
+      "outcome": "fabrication",
+      "tokens_per_s": 44.6,
+      "response": "```json\n{\n  \"clause\": \"48UW106\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Race, Color, National Origin, Sex, Age, Disability, Religion\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"48U10\",\n  \"title\": \"Government Contracts - Procurement of Goods and Services\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.242-1",
+    "unconstrained": {
+      "cited": "52.242-1",
+      "outcome": "correct",
+      "tokens_per_s": 44.4,
+      "response": "```json\n{\n  \"clause\": \"52.242-1\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.242-2",
+      "outcome": "substitution",
+      "tokens_per_s": 38.9,
+      "response": "{\"clause\": \"52.242-2\", \"title\": \"Contractor's Right to Terminate for Convenience\"}"
+    },
+    "span": {
+      "cited": "52.242-2",
+      "outcome": "substitution",
+      "tokens_per_s": 39.9,
+      "response": "{\"clause\": \"52.242-2\", \"title\": \"Contractor's Right to Terminate for Convenience\"}"
+    },
+    "posthoc": {
+      "cited": "52.242-1",
+      "outcome": "correct",
+      "tokens_per_s": 42.4,
+      "response": "```json\n{\n  \"clause\": \"52.242-1\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"52.242-1\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.203-6",
+    "unconstrained": {
+      "cited": "52.203-6",
+      "outcome": "correct",
+      "tokens_per_s": 43.4,
+      "response": "```json\n{\n  \"clause\": \"52.203-6\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.203-7",
+      "outcome": "substitution",
+      "tokens_per_s": 38.8,
+      "response": "{\"clause\": \"52.203-7\", \"title\": \"Contractor's Access to Government Property\"}"
+    },
+    "span": {
+      "cited": "52.203-7",
+      "outcome": "substitution",
+      "tokens_per_s": 39.7,
+      "response": "{\"clause\": \"52.203-7\", \"title\": \"Contractor's Access to Government Property\"}"
+    },
+    "posthoc": {
+      "cited": "52.203-6",
+      "outcome": "correct",
+      "tokens_per_s": 44.4,
+      "response": "```json\n{\n  \"clause\": \"52.203-6\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"52.203-6\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.209-6",
+    "unconstrained": {
+      "cited": "52.209-6",
+      "outcome": "correct",
+      "tokens_per_s": 43.4,
+      "response": "```json\n{\n  \"clause\": \"52.209-6\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Race, Color, Religion, Sex, National Origin, Age, Disability, or Genetic Information\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.209-7",
+      "outcome": "substitution",
+      "tokens_per_s": 36.2,
+      "response": "{\"clause\": \"52.209-7\", \"title\": \"Contractor's Right to Terminate for Convenience\"}"
+    },
+    "span": {
+      "cited": "52.209-7",
+      "outcome": "substitution",
+      "tokens_per_s": 37.3,
+      "response": "{\"clause\": \"52.209-7\", \"title\": \"Contractor's Right to Terminate for Convenience\"}"
+    },
+    "posthoc": {
+      "cited": "52.209-6",
+      "outcome": "correct",
+      "tokens_per_s": 40.6,
+      "response": "```json\n{\n  \"clause\": \"52.209-6\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Race, Color, Religion, Sex, National Origin, Age, Disability, or Genetic Information\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"52.209-6\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Race, Color, Religion, Sex, National Origin, Age, Disability, or Genetic Information\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.222-41",
+    "unconstrained": {
+      "cited": "FAR 52.222-41",
+      "outcome": "fabrication",
+      "tokens_per_s": 42.4,
+      "response": "```json\n{\n  \"clause\": \"FAR 52.222-41\",\n  \"title\": \"Contractor's Access to Government Property\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.222-42",
+      "outcome": "substitution",
+      "tokens_per_s": 36.6,
+      "response": "{\"clause\": \"52.222-42\", \"title\": \"Contractor's Access to Government Facilities and Property\"}"
+    },
+    "span": {
+      "cited": "52.222-42",
+      "outcome": "substitution",
+      "tokens_per_s": 37.2,
+      "response": "{\"clause\": \"52.222-42\", \"title\": \"Contractor's Access to Government Facilities and Property\"}"
+    },
+    "posthoc": {
+      "cited": "DFARS 252.22739-1068",
+      "outcome": "fabrication",
+      "tokens_per_s": 42.5,
+      "response": "```json\n{\n  \"clause\": \"DFARS 252.22739-1068\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Sex\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"FAR 52.222-41\",\n  \"title\": \"Contractor's Access to Government Property\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.225-11",
+    "unconstrained": {
+      "cited": "48U30",
+      "outcome": "fabrication",
+      "tokens_per_s": 42.6,
+      "response": "```json\n{\n  \"clause\": \"48U30\",\n  \"title\": \"Government-Written Statements\"\n}\n```"
+    },
+    "enum": {
+      "cited": "52.225-12",
+      "outcome": "substitution",
+      "tokens_per_s": 38.4,
+      "response": "{\"clause\": \"52.225-12\", \"title\": \"Contractor's Access to Government Facilities and Property\"}"
+    },
+    "span": {
+      "cited": "52.225-12",
+      "outcome": "substitution",
+      "tokens_per_s": 35.4,
+      "response": "{\"clause\": \"52.225-12\", \"title\": \"Contractor's Access to Government Facilities and Property\"}"
+    },
+    "posthoc": {
+      "cited": "48UW003",
+      "outcome": "fabrication",
+      "tokens_per_s": 39.7,
+      "response": "```json\n{\n  \"clause\": \"48UW003\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Race, Color, National Origin, Sex, Age, Disability, Religion\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"48U30\",\n  \"title\": \"Government-Written Statements\"\n}\n```"
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "252.203-7000",
+    "unconstrained": {
+      "cited": "252.203-7001",
+      "outcome": "substitution",
+      "tokens_per_s": 42.8,
+      "response": "```json\n{\n  \"clause\": \"252.203-7001\",\n  \"title\": \"Contracting Officer's Technical Memorandum\"\n}\n```"
+    },
+    "enum": {
+      "cited": "252.203-7001",
+      "outcome": "substitution",
+      "tokens_per_s": 38.5,
+      "response": "{\"clause\": \"252.203-7001\", \"title\": \"Contracting Officer's Technical Memorandum of Agreement (COMMA)\"}"
+    },
+    "span": {
+      "cited": "252.203-7001",
+      "outcome": "substitution",
+      "tokens_per_s": 37.4,
+      "response": "{\"clause\": \"252.203-7001\", \"title\": \"Contracting Officer's Technical Memorandum of Agreement (COMMA)\"}"
+    },
+    "posthoc": {
+      "cited": "252.203-7001",
+      "outcome": "substitution",
+      "tokens_per_s": 40.8,
+      "response": "```json\n{\n  \"clause\": \"252.203-7001\",\n  \"title\": \"Contracting Officer's Technical Memorandum\"\n}\n```",
+      "first_response": "```json\n{\n  \"clause\": \"252.203-7001\",\n  \"title\": \"Contracting Officer's Technical Memorandum\"\n}\n```"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.247-016",
+      "outcome": "fabrication",
+      "tokens_per_s": 41.1,
+      "response": "{\n  \"clause\": \"52.247-016\",\n  \"title\": \"Preservation of Drawings and Data Furnished Under Cost-Reimbursable Contracts\"\n}"
+    },
+    "enum": {
+      "cited": "52.242-17",
+      "outcome": "registry_valid",
+      "tokens_per_s": 34.5,
+      "response": "{\"clause\": \"52.242-17\", \"title\": \"Preservation of Drawings and Data Furnished Under Cost-Reimbursement Contracts\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 34.3,
+      "response": "{\"clause\":    , \"title\": \"Preservation of Drawings and Data Furnished Under Cost-Reimbursement Contracts\"}"
+    },
+    "posthoc": {
+      "cited": "52.247-19",
+      "outcome": "registry_valid",
+      "tokens_per_s": 43.3,
+      "response": "{\n  \"clause\": \"52.247-19\",\n  \"title\": \"Preservation of Drawings and Data Furnished Under Cost-Reimbursable Contracts\"\n}",
+      "first_response": "{\n  \"clause\": \"52.247-016\",\n  \"title\": \"Preservation of Drawings and Data Furnished Under Cost-Reimbursable Contracts\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 7105",
+      "outcome": "fabrication",
+      "tokens_per_s": 42.1,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 7105\",\n  \"title\": \"Notification of Ownership Changes\"\n}"
+    },
+    "enum": {
+      "cited": "52.227-7",
+      "outcome": "registry_valid",
+      "tokens_per_s": 38.1,
+      "response": "{\"clause\": \"52.227-7\", \"title\": \"Notification of Ownership Changes\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 39.4,
+      "response": "{\"clause\":    ,\"title\": \"Defense Federal Acquisition Regulation Supplement (DFARS) 252.204-7001\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 39.7,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Notification of Ownership Changes\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 7105\",\n  \"title\": \"Notification of Ownership Changes\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.232-19",
+      "outcome": "registry_valid",
+      "tokens_per_s": 38.5,
+      "response": "{\n  \"clause\": \"52.232-19\",\n  \"title\": \"Time and Material Contracting\"\n}"
+    },
+    "enum": {
+      "cited": "52.242-17",
+      "outcome": "registry_valid",
+      "tokens_per_s": 38.2,
+      "response": "{\"clause\": \"52.242-17\", \"title\": \"Time and Material Contracting for Commercial Services\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 32.7,
+      "response": "{\"clause\":   , \"title\": \"DFARS 252.232-7001\"}"
+    },
+    "posthoc": {
+      "cited": "52.232-19",
+      "outcome": "registry_valid",
+      "tokens_per_s": 39.0,
+      "response": "{\n  \"clause\": \"52.232-19\",\n  \"title\": \"Time and Material Contracting\"\n}",
+      "first_response": "{\n  \"clause\": \"52.232-19\",\n  \"title\": \"Time and Material Contracting\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 40.1,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Interagency Fleet Management Vehicles\"\n}"
+    },
+    "enum": {
+      "cited": "52.247-10",
+      "outcome": "registry_valid",
+      "tokens_per_s": 36.8,
+      "response": "{\"clause\": \"52.247-10\", \"title\": \"Interagency Fleet Management Vehicles\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 35.6,
+      "response": "{\"clause\":    ,\"title\": \"Interagency Fleet Management Vehicles\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 40.0,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Interagency Fleet Management Vehicles\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Interagency Fleet Management Vehicles\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 41.7,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Human Trafficking\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "registry_valid",
+      "tokens_per_s": 33.3,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Prohibition of Human Trafficking\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 36.5,
+      "response": "{\"clause\":   , \"title\": \"Human Trafficking in Extraschedular Services\"}"
+    },
+    "posthoc": {
+      "cited": "48.250-71",
+      "outcome": "fabrication",
+      "tokens_per_s": 42.8,
+      "response": "{\n  \"clause\": \"48.250-71\",\n  \"title\": \"Human Trafficking\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Human Trafficking\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 44.0,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Government Furnished Property\"\n}"
+    },
+    "enum": {
+      "cited": "52.217-7",
+      "outcome": "registry_valid",
+      "tokens_per_s": 37.8,
+      "response": "{\"clause\": \"52.217-7\", \"title\": \"Government Furnished Property\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 32.2,
+      "response": "{\"clause\":    ,\"title\": \"Government Furnished Property\"}"
+    },
+    "posthoc": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 40.5,
+      "response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Government Furnished Property\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Government Furnished Property\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.217-60",
+      "outcome": "fabrication",
+      "tokens_per_s": 42.1,
+      "response": "{\n  \"clause\": \"52.217-60\",\n  \"title\": \"Authorization for Use of Government-Owned and -Leased Property\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "registry_valid",
+      "tokens_per_s": 36.8,
+      "response": "{\"clause\":\"52.212-2\",\"title\":\"Government Property Authorization\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 35.0,
+      "response": "{\"clause\":    ,\"title\": \"52.212-70\"}"
+    },
+    "posthoc": {
+      "cited": "52.217-60",
+      "outcome": "fabrication",
+      "tokens_per_s": 40.2,
+      "response": "{\n  \"clause\": \"52.217-60\",\n  \"title\": \"Authorization for Use of Government-Owned and -Leased Property\"\n}",
+      "first_response": "{\n  \"clause\": \"52.217-60\",\n  \"title\": \"Authorization for Use of Government-Owned and -Leased Property\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.403",
+      "outcome": "fabrication",
+      "tokens_per_s": 37.7,
+      "response": "{\n  \"clause\": \"48.403\",\n  \"title\": \"Value Engineering\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "registry_valid",
+      "tokens_per_s": 39.8,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Value Engineering Change Proposals\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.4,
+      "response": "{\"clause\":  ,\"title\": \"DFARS 252.232-7001\"}"
+    },
+    "posthoc": {
+      "cited": "48.403",
+      "outcome": "fabrication",
+      "tokens_per_s": 44.4,
+      "response": "{\n  \"clause\": \"48.403\",\n  \"title\": \"Value Engineering\"\n}",
+      "first_response": "{\n  \"clause\": \"48.403\",\n  \"title\": \"Value Engineering\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 13235",
+      "outcome": "fabrication",
+      "tokens_per_s": 42.7,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 13235\",\n  \"title\": \"Progress Payment\"\n}"
+    },
+    "enum": {
+      "cited": "52.242-16",
+      "outcome": "registry_valid",
+      "tokens_per_s": 39.9,
+      "response": "{\"clause\": \"52.242-16\", \"title\": \"Rules for Progress Payments Based on Costs Incurred\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 39.8,
+      "response": "{\"clause\":   , \"title\": \"FAR 52.219-16\"}"
+    },
+    "posthoc": {
+      "cited": "52.247-19",
+      "outcome": "registry_valid",
+      "tokens_per_s": 44.8,
+      "response": "{\n  \"clause\": \"52.247-19\",\n  \"title\": \"Rules for Progress Payments\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 13235\",\n  \"title\": \"Progress Payment\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 13235",
+      "outcome": "fabrication",
+      "tokens_per_s": 44.7,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 13235\",\n  \"title\": \"Notification of Contract Performance Delays\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "registry_valid",
+      "tokens_per_s": 38.4,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Notification of Contract Performance Delays\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 38.4,
+      "response": "{\"clause\":   , \"title\": \"FAR 52.219-10\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 13235",
+      "outcome": "fabrication",
+      "tokens_per_s": 43.7,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 13235\",\n  \"title\": \"Notification of Contract Performance Delays\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 13235\",\n  \"title\": \"Notification of Contract Performance Delays\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 43.9,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Use of Recycled Materials\"\n}"
+    },
+    "enum": {
+      "cited": "52.227-19",
+      "outcome": "registry_valid",
+      "tokens_per_s": 39.8,
+      "response": "{\"clause\": \"52.227-19\", \"title\": \"Use of Recycled and Recyclable Materials\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 39.2,
+      "response": "{\"clause\":    ,\"title\": \"48.403 - Use of Recycled Materials in Federal Supply Contracts\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 43.4,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Federal Acquisition Regulations (FAR)\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Use of Recycled Materials\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.403",
+      "outcome": "fabrication",
+      "tokens_per_s": 44.3,
+      "response": "{\n  \"clause\": \"48.403\",\n  \"title\": \"First Article Inspection\"\n}"
+    },
+    "enum": {
+      "cited": "252.232-7001",
+      "outcome": "registry_valid",
+      "tokens_per_s": 38.6,
+      "response": "{\"clause\": \"252.232-7001\", \"title\": \"First Article Testing and Approval\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 39.4,
+      "response": "{\"clause\":    ,\"title\": \"DFARS 252.227-7012\"}"
+    },
+    "posthoc": {
+      "cited": "25.430",
+      "outcome": "fabrication",
+      "tokens_per_s": 43.4,
+      "response": "{\n  \"clause\": \"25.430\",\n  \"title\": \"First Article Inspection\"\n}",
+      "first_response": "{\n  \"clause\": \"48.403\",\n  \"title\": \"First Article Inspection\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "452.201-7003",
+      "outcome": "fabrication",
+      "tokens_per_s": 43.9,
+      "response": "{\n  \"clause\": \"452.201-7003\",\n  \"title\": \"Assignment of Claims\"\n}"
+    },
+    "enum": {
+      "cited": "52.227-7",
+      "outcome": "registry_valid",
+      "tokens_per_s": 38.9,
+      "response": "{\"clause\": \"52.227-7\", \"title\": \"Assignment of Claims\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 39.9,
+      "response": "{\"clause\":    , \"title\": \"DFARS 252.232-7001\"}"
+    },
+    "posthoc": {
+      "cited": "452.201-7003",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.3,
+      "response": "{\n  \"clause\": \"452.201-7003\",\n  \"title\": \"Assignment of Claims\"\n}",
+      "first_response": "{\n  \"clause\": \"452.201-7003\",\n  \"title\": \"Assignment of Claims\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.232-1789",
+      "outcome": "fabrication",
+      "tokens_per_s": 43.8,
+      "response": "{\n  \"clause\": \"52.232-1789\",\n  \"title\": \"Overtime Premium Payments\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "registry_valid",
+      "tokens_per_s": 37.9,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Overtime Premium Payments\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 38.0,
+      "response": "{\"clause\":  ,\"title\": \"Overtime Premiums\"}"
+    },
+    "posthoc": {
+      "cited": "52.232-1987",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.1,
+      "response": "{\n  \"clause\": \"52.232-1987\",\n  \"title\": \"Overtime Premium Payments\"\n}",
+      "first_response": "{\n  \"clause\": \"52.232-1789\",\n  \"title\": \"Overtime Premium Payments\"\n}"
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.5,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Government Property and Government Operations\"\n}"
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "registry_valid",
+      "tokens_per_s": 40.8,
+      "response": "{\"clause\": \"52.212-2\", \"title\": \"Government Property, Federally Owned, and Government Operated (FOPFO) Insurance Requirements\"}"
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.2,
+      "response": "{\"clause\":    ,\"title\": \"Insurance Requirements for Government Installations\"}"
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.3,
+      "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Government Property and Services\"\n}",
+      "first_response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Government Property and Government Operations\"\n}"
+    }
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 24.7
+    },
+    "enum": {
+      "cited": "52.222-7",
+      "outcome": "substitution",
+      "tokens_per_s": 38.3
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 36.5
+    },
+    "posthoc": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 44.2
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 43.9
+    },
+    "enum": {
+      "cited": "252.227-7001",
+      "outcome": "substitution",
+      "tokens_per_s": 37.7
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 37.5
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 42.3
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 41.4
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 39.9
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.4
+    },
+    "posthoc": {
+      "cited": "48.401",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.0
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.9
+    },
+    "enum": {
+      "cited": "52.252-1",
+      "outcome": "substitution",
+      "tokens_per_s": 39.0
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.4
+    },
+    "posthoc": {
+      "cited": "48U",
+      "outcome": "fabrication",
+      "tokens_per_s": 48.4
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1502",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.6
+    },
+    "enum": {
+      "cited": "52.242-17",
+      "outcome": "substitution",
+      "tokens_per_s": 41.8
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.7
+    },
+    "posthoc": {
+      "cited": "48.201",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.0
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.232-19",
+      "outcome": "substitution",
+      "tokens_per_s": 45.6
+    },
+    "enum": {
+      "cited": "52.232-22",
+      "outcome": "substitution",
+      "tokens_per_s": 41.0
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.9
+    },
+    "posthoc": {
+      "cited": "52.232-19",
+      "outcome": "substitution",
+      "tokens_per_s": 46.2
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.401",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.1
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 39.9
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.1
+    },
+    "posthoc": {
+      "cited": "48UW-012",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.0
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48.401",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.6
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "substitution",
+      "tokens_per_s": 42.4
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.3
+    },
+    "posthoc": {
+      "cited": "48.401",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.9
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.247-0136",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.4
+    },
+    "enum": {
+      "cited": "52.227-7",
+      "outcome": "substitution",
+      "tokens_per_s": 42.0
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.6
+    },
+    "posthoc": {
+      "cited": "52.247-103",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.1
+    }
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48UW-0125",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.5
+    },
+    "enum": {
+      "cited": "52.217-7",
+      "outcome": "substitution",
+      "tokens_per_s": 41.8
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.3
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 46.1
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.212-4",
+    "unconstrained": {
+      "cited": "52.212-4",
+      "outcome": "correct",
+      "tokens_per_s": 46.1
+    },
+    "enum": {
+      "cited": "52.212-5",
+      "outcome": "substitution",
+      "tokens_per_s": 41.4
+    },
+    "span": {
+      "cited": "52.212-5",
+      "outcome": "substitution",
+      "tokens_per_s": 42.0
+    },
+    "posthoc": {
+      "cited": "52.212-4",
+      "outcome": "correct",
+      "tokens_per_s": 47.6
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.219-9",
+    "unconstrained": {
+      "cited": "52.219-7",
+      "outcome": "substitution",
+      "tokens_per_s": 47.0
+    },
+    "enum": {
+      "cited": "52.219-8",
+      "outcome": "substitution",
+      "tokens_per_s": 40.9
+    },
+    "span": {
+      "cited": "52.219-8",
+      "outcome": "substitution",
+      "tokens_per_s": 40.7
+    },
+    "posthoc": {
+      "cited": "52.219-7",
+      "outcome": "substitution",
+      "tokens_per_s": 46.0
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.204-7",
+    "unconstrained": {
+      "cited": "52.204-7",
+      "outcome": "correct",
+      "tokens_per_s": 45.8
+    },
+    "enum": {
+      "cited": "52.204-8",
+      "outcome": "substitution",
+      "tokens_per_s": 40.4
+    },
+    "span": {
+      "cited": "52.204-8",
+      "outcome": "substitution",
+      "tokens_per_s": 41.3
+    },
+    "posthoc": {
+      "cited": "52.204-7",
+      "outcome": "correct",
+      "tokens_per_s": 46.2
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "52.222-50",
+    "unconstrained": {
+      "cited": "52.222-73",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.5
+    },
+    "enum": {
+      "cited": "52.222-51",
+      "outcome": "substitution",
+      "tokens_per_s": 39.9
+    },
+    "span": {
+      "cited": "52.222-51",
+      "outcome": "substitution",
+      "tokens_per_s": 42.1
+    },
+    "posthoc": {
+      "cited": "48UW-03",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.5
+    }
+  },
+  {
+    "kind": "near_miss",
+    "gold": "252.225-7042",
+    "unconstrained": {
+      "cited": "FAR 252.225-7043",
+      "outcome": "fabrication",
+      "tokens_per_s": 43.1
+    },
+    "enum": {
+      "cited": "252.225-7043",
+      "outcome": "substitution",
+      "tokens_per_s": 39.1
+    },
+    "span": {
+      "cited": "252.225-7043",
+      "outcome": "substitution",
+      "tokens_per_s": 40.6
+    },
+    "posthoc": {
+      "cited": "252.225-7043",
+      "outcome": "substitution",
+      "tokens_per_s": 43.9
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.247-016",
+      "outcome": "fabrication",
+      "tokens_per_s": 41.3
+    },
+    "enum": {
+      "cited": "52.242-17",
+      "outcome": "registry_valid",
+      "tokens_per_s": 39.6
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 38.7
+    },
+    "posthoc": {
+      "cited": "52.247-19",
+      "outcome": "registry_valid",
+      "tokens_per_s": 44.5
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 7105",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.2
+    },
+    "enum": {
+      "cited": "52.227-7",
+      "outcome": "registry_valid",
+      "tokens_per_s": 38.3
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.8
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 43.0
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "52.232-19",
+      "outcome": "registry_valid",
+      "tokens_per_s": 43.5
+    },
+    "enum": {
+      "cited": "52.242-17",
+      "outcome": "registry_valid",
+      "tokens_per_s": 39.8
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 42.4
+    },
+    "posthoc": {
+      "cited": "52.232-19",
+      "outcome": "registry_valid",
+      "tokens_per_s": 45.1
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.1
+    },
+    "enum": {
+      "cited": "52.247-10",
+      "outcome": "registry_valid",
+      "tokens_per_s": 42.6
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 40.5
+    },
+    "posthoc": {
+      "cited": "48U.S.C. \u00a7 1705",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.3
+    }
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "unconstrained": {
+      "cited": "48U.S.C. \u00a7 1735",
+      "outcome": "fabrication",
+      "tokens_per_s": 47.4
+    },
+    "enum": {
+      "cited": "52.212-2",
+      "outcome": "registry_valid",
+      "tokens_per_s": 43.3
+    },
+    "span": {
+      "cited": null,
+      "outcome": "malformed",
+      "tokens_per_s": 41.0
+    },
+    "posthoc": {
+      "cited": "48.250-71",
+      "outcome": "fabrication",
+      "tokens_per_s": 45.3
+    }
+  }
+]

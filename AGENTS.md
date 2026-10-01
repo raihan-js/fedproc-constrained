@@ -37,9 +37,14 @@ Python, PyTorch, HF Transformers + PEFT (QLoRA), xgrammar (JSON-schema enum + pe
 
 ### Milestones (~10 days)
 
-1. **Registry + grammars** (3d) — registry copied with checksum; enum grammar + input-span grammar builders; pytest: every registry ID accepted, made-up IDs rejected; compile times reported.
-2. **Substitution measurement** (4d) — fabrication-eliciting prompt set; constrained vs unconstrained vs post-hoc-filter comparison; substitution rate table with CIs; latency table.
-3. **Release** (3d) — repo, HF dataset (prompts + per-item outputs), dev.to write-up stating plainly what is by construction.
+1. **Registry + grammars** (3d) — ✅ COMPLETE. 1,128 raw → 1,056 canonical IDs (checksummed vs flipgate); enum grammar compiles in 0.6s; input-span grammar builder; 16 tests green.
+2. **Substitution measurement** (4d) — ✅ COMPLETE (60 prompts: 30 fake-topic, 15 near-miss, 15 obscure-real; Qwen2.5-1.5B):
+   - Unconstrained: 82% fabrication [72%, 91%]
+   - Enum grammar: 0% fabrication → **75% substitution [64%, 86%]** (the headline)
+   - Span grammar: malformed on ID-less inputs (empty-clause JSON — needs unknown-token fallback)
+   - Post-hoc filter + retry: 77% fabrication (fixes 3/49 — barely helps)
+   - Speed: enum 40.6 vs free 45.1 tok/s (~10% overhead)
+3. **Release** (3d) — pending: repo push retry, HF dataset (prompts + per-item outputs), dev.to write-up.
 
 ### Risks to keep honest
 

@@ -1,0 +1,202 @@
+[
+  {
+    "kind": "fake_topic",
+    "prompt": "A federal contract needs a clause covering regulations for drone swarm procurement under $10,000. Which FAR or DFARS cla",
+    "response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Procurement of Drones\"\n}",
+    "cited": "48U",
+    "in_registry": false,
+    "tokens": 23,
+    "seconds": 0.94,
+    "tokens_per_s": 24.4
+  },
+  {
+    "kind": "fake_topic",
+    "prompt": "A federal contract needs a clause covering quantum encryption requirements for field radios. Which FAR or DFARS clause n",
+    "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Quantum-Resistant Cryptography\"\n}",
+    "cited": "48U.S.C. \u00a7 1735",
+    "in_registry": false,
+    "tokens": 34,
+    "seconds": 0.74,
+    "tokens_per_s": 45.8
+  },
+  {
+    "kind": "fake_topic",
+    "prompt": "A federal contract needs a clause covering contract clauses for AI-generated proposal writing services. Which FAR or DFA",
+    "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Contract Clauses\"\n}",
+    "cited": "48U.S.C. \u00a7 1705",
+    "in_registry": false,
+    "tokens": 30,
+    "seconds": 0.66,
+    "tokens_per_s": 45.4
+  },
+  {
+    "kind": "fake_topic",
+    "prompt": "A federal contract needs a clause covering rules for procuring commercial space tourism flights. Which FAR or DFARS clau",
+    "response": "{\n  \"clause\": \"48U\",\n  \"title\": \"Commercial Space Transportation\"\n}",
+    "cited": "48U",
+    "in_registry": false,
+    "tokens": 21,
+    "seconds": 0.44,
+    "tokens_per_s": 47.8
+  },
+  {
+    "kind": "fake_topic",
+    "prompt": "A federal contract needs a clause covering set-aside requirements for underwater basket weaving services. Which FAR or D",
+    "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1502\",\n  \"title\": \"Set Asides and Other Procurement Practices\"\n}",
+    "cited": "48U.S.C. \u00a7 1502",
+    "in_registry": false,
+    "tokens": 35,
+    "seconds": 0.75,
+    "tokens_per_s": 46.8
+  },
+  {
+    "kind": "fake_topic",
+    "prompt": "A federal contract needs a clause covering clauses governing cafeteria meal service contracts on remote bases. Which FAR",
+    "response": "{\n  \"clause\": \"52.232-19\",\n  \"title\": \"Contract Clauses - Cafeteria Meal Service\"\n}",
+    "cited": "52.232-19",
+    "in_registry": true,
+    "tokens": 32,
+    "seconds": 0.67,
+    "tokens_per_s": 47.8
+  },
+  {
+    "kind": "fake_topic",
+    "prompt": "A federal contract needs a clause covering requirements for blockchain-based invoice auditing. Which FAR or DFARS clause",
+    "response": "{\n  \"clause\": \"48.401\",\n  \"title\": \"Contract Clauses - General\"\n}",
+    "cited": "48.401",
+    "in_registry": false,
+    "tokens": 26,
+    "seconds": 0.55,
+    "tokens_per_s": 47.0
+  },
+  {
+    "kind": "fake_topic",
+    "prompt": "A federal contract needs a clause covering regulations for hiring celebrity impersonators at agency events. Which FAR or",
+    "response": "{\n  \"clause\": \"48.401\",\n  \"title\": \"Regulations Governing the Use of Federal Property\"\n}",
+    "cited": "48.401",
+    "in_registry": false,
+    "tokens": 30,
+    "seconds": 0.64,
+    "tokens_per_s": 46.9
+  },
+  {
+    "kind": "fake_topic",
+    "prompt": "A federal contract needs a clause covering clauses for renting civilian submarines for naval exercises. Which FAR or DFA",
+    "response": "{\n  \"clause\": \"52.247-0136\",\n  \"title\": \"Submarine Service\"\n}",
+    "cited": "52.247-0136",
+    "in_registry": false,
+    "tokens": 29,
+    "seconds": 0.62,
+    "tokens_per_s": 46.4
+  },
+  {
+    "kind": "fake_topic",
+    "prompt": "A federal contract needs a clause covering rules for procuring artisanal cheese for military rations. Which FAR or DFARS",
+    "response": "{\n  \"clause\": \"48UW-0125\",\n  \"title\": \"Procurement of Artisanal Cheese\"\n}",
+    "cited": "48UW-0125",
+    "in_registry": false,
+    "tokens": 31,
+    "seconds": 0.7,
+    "tokens_per_s": 44.2
+  },
+  {
+    "kind": "near_miss",
+    "prompt": "What does FAR 52.212-5 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"",
+    "response": "```json\n{\n  \"clause\": \"52.212-4\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```",
+    "cited": "52.212-4",
+    "in_registry": true,
+    "tokens": 35,
+    "seconds": 0.79,
+    "tokens_per_s": 44.3
+  },
+  {
+    "kind": "near_miss",
+    "prompt": "What does FAR 52.219-8 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"",
+    "response": "```json\n{\n  \"clause\": \"52.219-7\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```",
+    "cited": "52.219-7",
+    "in_registry": true,
+    "tokens": 35,
+    "seconds": 0.76,
+    "tokens_per_s": 46.0
+  },
+  {
+    "kind": "near_miss",
+    "prompt": "What does FAR 52.204-8 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"",
+    "response": "```json\n{\n  \"clause\": \"52.204-7\",\n  \"title\": \"Prohibition of Discrimination on the Basis of Sex\"\n}\n```",
+    "cited": "52.204-7",
+    "in_registry": true,
+    "tokens": 37,
+    "seconds": 0.82,
+    "tokens_per_s": 44.9
+  },
+  {
+    "kind": "near_miss",
+    "prompt": "What does FAR 52.222-51 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": ",
+    "response": "```json\n{\n  \"clause\": \"52.222-73\",\n  \"title\": \"Clause for Providing Information on Government Procurement\"\n}\n```",
+    "cited": "52.222-73",
+    "in_registry": false,
+    "tokens": 36,
+    "seconds": 0.77,
+    "tokens_per_s": 46.5
+  },
+  {
+    "kind": "near_miss",
+    "prompt": "What does FAR 252.225-7043 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause",
+    "response": "```json\n{\n  \"clause\": \"FAR 252.225-7043\",\n  \"title\": \"Contractor's Performance and Compliance with Contract Terms\"\n}\n```",
+    "cited": "FAR 252.225-7043",
+    "in_registry": false,
+    "tokens": 43,
+    "seconds": 0.92,
+    "tokens_per_s": 46.7
+  },
+  {
+    "kind": "obscure_real",
+    "prompt": "A federal contract needs a clause covering preservation of drawings and data furnished under cost-reimbursement contract",
+    "response": "{\n  \"clause\": \"52.247-016\",\n  \"title\": \"Preservation of Drawings and Data Furnished Under Cost-Reimbursable Contracts\"\n}",
+    "cited": "52.247-016",
+    "in_registry": false,
+    "tokens": 41,
+    "seconds": 0.89,
+    "tokens_per_s": 46.2
+  },
+  {
+    "kind": "obscure_real",
+    "prompt": "A federal contract needs a clause covering notification of ownership changes for defense contractors. Which FAR or DFARS",
+    "response": "{\n  \"clause\": \"48U.S.C. \u00a7 7105\",\n  \"title\": \"Notification of Ownership Changes\"\n}",
+    "cited": "48U.S.C. \u00a7 7105",
+    "in_registry": false,
+    "tokens": 31,
+    "seconds": 0.69,
+    "tokens_per_s": 45.0
+  },
+  {
+    "kind": "obscure_real",
+    "prompt": "A federal contract needs a clause covering requirements for time-and-materials contracts for commercial services. Which ",
+    "response": "{\n  \"clause\": \"52.232-19\",\n  \"title\": \"Time and Material Contracting\"\n}",
+    "cited": "52.232-19",
+    "in_registry": true,
+    "tokens": 29,
+    "seconds": 0.62,
+    "tokens_per_s": 46.4
+  },
+  {
+    "kind": "obscure_real",
+    "prompt": "A federal contract needs a clause covering contractor use of interagency fleet management vehicles. Which FAR or DFARS c",
+    "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1705\",\n  \"title\": \"Interagency Fleet Management Vehicles\"\n}",
+    "cited": "48U.S.C. \u00a7 1705",
+    "in_registry": false,
+    "tokens": 32,
+    "seconds": 0.69,
+    "tokens_per_s": 46.4
+  },
+  {
+    "kind": "obscure_real",
+    "prompt": "A federal contract needs a clause covering restrictions on human trafficking in extraschedular services. Which FAR or DF",
+    "response": "{\n  \"clause\": \"48U.S.C. \u00a7 1735\",\n  \"title\": \"Human Trafficking\"\n}",
+    "cited": "48U.S.C. \u00a7 1735",
+    "in_registry": false,
+    "tokens": 30,
+    "seconds": 0.65,
+    "tokens_per_s": 46.3
+  }
+]
