@@ -1,3 +1,5 @@
+![fedproc-constrained results](https://raw.githubusercontent.com/raihan-js/fedproc-constrained/main/images/fedproc.png)
+
 # What Happens When Decoding Makes Hallucination Impossible? Substitution.
 
 *Blocking a fake FAR clause doesn't produce truth. It produces a real-but-wrong clause 75% of the time.*
