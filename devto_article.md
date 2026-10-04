@@ -1,6 +1,6 @@
 ![fedproc-constrained results](https://raw.githubusercontent.com/raihan-js/fedproc-constrained/HEAD/images/fedproc.png)
 
-# A Grammar Stopped My Model Inventing FAR Clauses. It Also Taught It to Refuse Everything
+# A Grammar Stopped My Model Inventing FAR Clauses. It Also Made It Refuse the Real Ones
 
 *Constrained decoding cut fabricated clause numbers from 57 of 60 to 0. With an abstain option added, a 1.5B model answered "none" to every question that named a clause number, real or not.*
 
