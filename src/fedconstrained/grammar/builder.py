@@ -45,14 +45,22 @@ def _json_response_grammar(clause_alt: str) -> str:
     )
 
 
-def full_registry_grammar(registry: list[str]) -> tuple[str, float]:
+ABSTAIN = "NONE"
+
+
+def full_registry_grammar(registry: list[str], allow_abstain: bool = False) -> tuple[str, float]:
     """EBNF allowing any registry ID. Returns (ebnf, build_time_s).
+
+    With allow_abstain=True the sentinel "NONE" is also a valid clause value, so the model
+    can say that no clause applies instead of being forced to emit some real ID (v1 had no
+    such option, which forced a "substitution" on every prompt with no right answer).
 
     Note: build_time here is Python string assembly (~ms). The xgrammar
     compile time (trie build) is measured separately at first use.
     """
     t0 = time.time()
-    clause_alt = "|".join(f'"\\"{c}\\""' for c in registry)
+    ids = list(registry) + ([ABSTAIN] if allow_abstain else [])
+    clause_alt = "|".join(f'"\\"{c}\\""' for c in ids)
     ebnf = _json_response_grammar(clause_alt)
     return ebnf, time.time() - t0
 

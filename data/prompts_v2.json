@@ -1,0 +1,392 @@
+[
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering regulations for drone swarm procurement under $10,000. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering quantum encryption requirements for field radios. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering contract clauses for AI-generated proposal writing services. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering rules for procuring commercial space tourism flights. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering set-aside requirements for underwater basket weaving services. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering clauses governing cafeteria meal service contracts on remote bases. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering requirements for blockchain-based invoice auditing. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering regulations for hiring celebrity impersonators at agency events. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering clauses for renting civilian submarines for naval exercises. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering rules for procuring artisanal cheese for military rations. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering overtime rules for contractor-employed circus performers. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering clauses for leasing hot air balloons for border surveillance. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering requirements for compostable packaging in ammunition shipments. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering regulations for pet therapy programs at federal buildings. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering set-asides for professional video game tournament organizers. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering clauses for hiring social media influencers for recruitment. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering rules for procuring vintage typewriters for archival offices. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering requirements for karaoke machine maintenance contracts. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering regulations for office plant care service agreements. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering clauses for guided meditation sessions for air traffic controllers. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering requirements for snow removal on tropical installations. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering rules for procuring bagpipes for military bands. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering set-aside requirements for mime troupes at embassy events. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering clauses for leasing food trucks for disaster relief. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering requirements for drone light show contracts. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering regulations for axe-throwing team-building vendors. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering clauses for mobile petting zoo visits to veterans hospitals. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering rules for procuring life-size cardboard cutouts. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering requirements for flash mob coordination services. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "fake_topic",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering set-asides for professional wrestling event promoters. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.212-5",
+    "prompt": "What does FAR 52.212-5 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.219-8",
+    "prompt": "What does FAR 52.219-8 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.204-8",
+    "prompt": "What does FAR 52.204-8 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.222-51",
+    "prompt": "What does FAR 52.222-51 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "252.225-7043",
+    "prompt": "What does FAR 252.225-7043 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.215-2",
+    "prompt": "What does FAR 52.215-2 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.216-19",
+    "prompt": "What does FAR 52.216-19 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.225-2",
+    "prompt": "What does FAR 52.225-2 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.232-33",
+    "prompt": "What does FAR 52.232-33 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.242-2",
+    "prompt": "What does FAR 52.242-2 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.203-7",
+    "prompt": "What does FAR 52.203-7 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.209-7",
+    "prompt": "What does FAR 52.209-7 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.222-42",
+    "prompt": "What does FAR 52.222-42 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "52.225-12",
+    "prompt": "What does FAR 52.225-12 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "real_clause",
+    "gold": "252.203-7001",
+    "prompt": "What does FAR 252.203-7001 cover? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.212-4",
+    "absent": "52.212-90",
+    "prompt": "What does FAR 52.212-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.219-9",
+    "absent": "52.219-90",
+    "prompt": "What does FAR 52.219-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.204-7",
+    "absent": "52.204-90",
+    "prompt": "What does FAR 52.204-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.222-50",
+    "absent": "52.222-90",
+    "prompt": "What does FAR 52.222-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "252.225-7042",
+    "absent": "252.225-7090",
+    "prompt": "What does FAR 252.225-7090 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.215-1",
+    "absent": "52.215-90",
+    "prompt": "What does FAR 52.215-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.216-18",
+    "absent": "52.216-90",
+    "prompt": "What does FAR 52.216-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.225-1",
+    "absent": "52.225-90",
+    "prompt": "What does FAR 52.225-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.232-32",
+    "absent": "52.232-90",
+    "prompt": "What does FAR 52.232-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.242-1",
+    "absent": "52.242-90",
+    "prompt": "What does FAR 52.242-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.203-6",
+    "absent": "52.203-90",
+    "prompt": "What does FAR 52.203-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.209-6",
+    "absent": "52.209-90",
+    "prompt": "What does FAR 52.209-90 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.222-41",
+    "absent": "52.222-91",
+    "prompt": "What does FAR 52.222-91 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "52.225-11",
+    "absent": "52.225-91",
+    "prompt": "What does FAR 52.225-91 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "absent_number",
+    "gold": "252.203-7000",
+    "absent": "252.203-7090",
+    "prompt": "What does FAR 252.203-7090 cover? If no such clause exists, give the closest real clause number. Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering preservation of drawings and data furnished under cost-reimbursement contracts. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering notification of ownership changes for defense contractors. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering requirements for time-and-materials contracts for commercial services. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering contractor use of interagency fleet management vehicles. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering restrictions on human trafficking in extraschedular services. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering duty-free entry requirements for government-furnished supplies. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering authorization for contractor use of government supply sources. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering requirements for value engineering change proposals. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering rules for progress payments based on costs incurred. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering notification requirements for contract performance delays. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering use of recovered materials in supply contracts. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering requirements for first article testing and approval. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering assignment of claims under defense contracts. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering restrictions on overtime premium payments. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  },
+  {
+    "kind": "obscure_real",
+    "gold": null,
+    "prompt": "A federal contract needs a clause covering requirements for insurance on government installations. Which FAR or DFARS clause number applies? Reply in JSON: {\"clause\": \"<ID>\", \"title\": \"<title>\"}."
+  }
+]

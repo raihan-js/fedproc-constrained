@@ -46,12 +46,25 @@ class TestFullGrammar:
         missing = [c for c in registry if c not in ebnf]
         assert missing == []
 
-    def test_compiles_in_xgrammar(self, registry):
+    @staticmethod
+    def _tokenizer_dir():
+        from pathlib import Path
+        here = Path(__file__).resolve().parents[1]
+        for cand in (here / "data/models/Qwen--Qwen2.5-1.5B-Instruct",
+                     here.parent / "graphproof-qa/data/models/Qwen--Qwen2.5-1.5B-Instruct"):
+            if (cand / "tokenizer.json").exists():
+                return cand
+        return None
+
+    @pytest.mark.parametrize("allow_abstain", [False, True])
+    def test_compiles_in_xgrammar(self, registry, allow_abstain):
         xgr = pytest.importorskip("xgrammar")
+        tok_dir = self._tokenizer_dir()
+        if tok_dir is None:
+            pytest.skip("Qwen2.5-1.5B-Instruct tokenizer not downloaded")
         from transformers import AutoTokenizer
-        ebnf, _ = full_registry_grammar(registry)
-        tok = AutoTokenizer.from_pretrained(
-            "../graphproof-qa/data/models/Qwen--Qwen2.5-1.5B-Instruct")
+        ebnf, _ = full_registry_grammar(registry, allow_abstain=allow_abstain)
+        tok = AutoTokenizer.from_pretrained(str(tok_dir))
         info = xgr.TokenizerInfo.from_huggingface(tok)
         compiled = xgr.GrammarCompiler(info).compile_grammar(ebnf)
         assert compiled is not None
