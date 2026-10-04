@@ -40,7 +40,7 @@ Python, PyTorch, HF Transformers + PEFT (QLoRA), xgrammar (JSON-schema enum + pe
 1. **Registry + grammars** (3d) — ✅ COMPLETE. 1,128 raw → 1,056 canonical IDs (checksummed vs flipgate); enum grammar compiles in 0.6s; input-span grammar builder; 16 tests green.
 2. **Substitution measurement** (4d) — ✅ COMPLETE (60 prompts: 30 fake-topic, 15 near-miss, 15 obscure-real; Qwen2.5-1.5B):
    - Unconstrained: 82% fabrication [72%, 91%]
-   - Enum grammar: 0% fabrication → **75% substitution [64%, 86%]** (the headline)
+   - Enum grammar: 0% fabrication; the original '75% substitution' headline was an artefact (see README Correction, 2026-10-05)
    - Span grammar: malformed on ID-less inputs (empty-clause JSON — needs unknown-token fallback)
    - Post-hoc filter + retry: 77% fabrication (fixes 3/49 — barely helps)
    - Speed: enum 40.6 vs free 45.1 tok/s (~10% overhead)
