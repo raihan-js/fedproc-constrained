@@ -9,7 +9,7 @@ Prep context: `../../noeon-prep/`.
 
 ## Active project: FedProc-Constrained
 
-Compile the 1,032-clause FAR/DFARS registry into a decoding grammar so a small LLM cannot output a nonexistent clause number — then measure the real finding: how often the blocked fake turns into a real-but-wrong clause (substitution rate), and what the grammar costs in speed.
+Compile the FAR/DFARS registry (1,056 canonical IDs) into a decoding grammar so a small LLM cannot output a nonexistent clause number — then measure the real finding: how often the blocked fake turns into a real-but-wrong clause (substitution rate), and what the grammar costs in speed.
 
 **Publishes:** substitution rate (blocked-fake → real-but-wrong) + latency overhead of constrained vs unconstrained decoding on clause-citation prompts.
 

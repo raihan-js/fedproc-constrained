@@ -1,4 +1,4 @@
-![fedproc-constrained results](https://raw.githubusercontent.com/raihan-js/fedproc-constrained/main/images/fedproc.png)
+![fedproc-constrained results](https://raw.githubusercontent.com/raihan-js/fedproc-constrained/HEAD/images/fedproc.png)
 
 # What Happens When Decoding Makes Hallucination Impossible? Substitution.
 
@@ -8,7 +8,7 @@
 
 ## The Setup
 
-FlipGate (my last project) found that quantized LLMs fabricate FAR/DFARS clause numbers — AWQ invented 34 new ones (p=0.001). The obvious fix: compile the 1,056-clause registry into a decoding grammar so the model *cannot* emit a nonexistent number.
+FlipGate (my last project) found that quantized LLMs fabricate FAR/DFARS clause numbers — AWQ invented 34 new ones (p=0.001). The obvious fix: compile the registry (1,128 raw entries, 1,056 distinct canonical clause IDs) into a decoding grammar so the model *cannot* emit a nonexistent number.
 
 That guarantee is true by construction — which makes it worthless as a finding. The real question is what the blocked fake turns into. Three hypotheses: the model abstains, it finds the right clause, or it substitutes a real-but-wrong one.
 
