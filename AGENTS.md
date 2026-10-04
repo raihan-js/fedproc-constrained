@@ -38,13 +38,14 @@ Python, PyTorch, HF Transformers + PEFT (QLoRA), xgrammar (JSON-schema enum + pe
 ### Milestones (~10 days)
 
 1. **Registry + grammars** (3d) — ✅ COMPLETE. 1,128 raw → 1,056 canonical IDs (checksummed vs flipgate); enum grammar compiles in 0.6s; input-span grammar builder; 16 tests green.
-2. **Substitution measurement** (4d) — ✅ COMPLETE (60 prompts: 30 fake-topic, 15 near-miss, 15 obscure-real; Qwen2.5-1.5B):
+2. **Substitution measurement** (4d) — ✅ COMPLETE, v1 numbers below are superseded by the corrected re-score and v2 (60 prompts: 30 fake-topic, 15 near-miss, 15 obscure-real; Qwen2.5-1.5B):
    - Unconstrained: 82% fabrication [72%, 91%]
    - Enum grammar: 0% fabrication; the original '75% substitution' headline was an artefact (see README Correction, 2026-10-05)
    - Span grammar: malformed on ID-less inputs (empty-clause JSON — needs unknown-token fallback)
    - Post-hoc filter + retry: 77% fabrication (fixes 3/49 — barely helps)
    - Speed: enum 40.6 vs free 45.1 tok/s (~10% overhead)
-3. **Release** (3d) — pending: repo push retry, HF dataset (prompts + per-item outputs), dev.to write-up.
+2b. **v2 with abstain option** — ✅ COMPLETE (2026-10-05; 75 prompts, 5 conditions; `results/v2_summary.json`): fabricated on the 60 no-single-answer prompts: free 57/60, grammar 0/60; good-answer rate 25% free, 28% grammar, **62% grammar + NONE** [49%, 73%]. But grammar + NONE answered NONE on all 30 prompts that name a clause number (15 real: wrong; 15 absent: right), so it refuses rather than discriminates. "Correct" on real clauses = number copied from the prompt (free also 15/15); titles ungrounded (15 clauses -> 4 distinct titles free, 6 grammar). Post-hoc filter: 56/60 still fabricated.
+3. **Release** — repo, HF dataset (prompts + per-item outputs), dev.to write-up (rewritten for v2).
 
 ### Risks to keep honest
 

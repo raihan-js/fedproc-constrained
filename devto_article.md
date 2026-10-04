@@ -1,64 +1,75 @@
 ![fedproc-constrained results](https://raw.githubusercontent.com/raihan-js/fedproc-constrained/HEAD/images/fedproc.png)
 
-# What Happens When Decoding Makes Hallucination Impossible? Substitution.
+# A Grammar Stopped My Model Inventing FAR Clauses. It Also Taught It to Refuse Everything
 
-*Blocking a fake FAR clause doesn't produce truth. It produces a real-but-wrong clause 75% of the time.*
+*Constrained decoding cut fabricated clause numbers from 57 of 60 to 0. With an abstain option added, a 1.5B model answered "none" to every question that named a clause number, real or not.*
 
 ---
 
 ## The Setup
 
-FlipGate (my last project) found that quantized LLMs fabricate FAR/DFARS clause numbers — AWQ invented 34 new ones (p=0.001). The obvious fix: compile the registry (1,128 raw entries, 1,056 distinct canonical clause IDs) into a decoding grammar so the model *cannot* emit a nonexistent number.
+FlipGate (my previous project) found that quantised LLMs fabricate FAR/DFARS clause numbers; AWQ invented 34 new ones (p=0.001). The obvious fix: compile the registry (1,128 raw entries, 1,056 distinct canonical clause IDs) into a decoding grammar so the model *cannot* emit a nonexistent number.
 
-That guarantee is true by construction — which makes it worthless as a finding. The real question is what the blocked fake turns into. Three hypotheses: the model abstains, it finds the right clause, or it substitutes a real-but-wrong one. (The enum grammar I built has no "none" option, so abstaining was never actually possible; I only noticed when breaking the results down by prompt kind.)
+That guarantee is true by construction, so on its own it is not a finding. The real question is what the blocked fake turns into. Three possibilities: the model abstains, it finds the right clause, or it substitutes a real-but-wrong one.
 
-## The Experiment
+## What I got wrong the first time
 
-Qwen2.5-1.5B-Instruct, 60 fabrication-eliciting prompts (fake topics, near-miss numbers, obscure real topics), four conditions:
+My first write-up said "0% fabrication but 75% substitution". Reading the raw responses showed that number was an artefact of two mistakes in my own experiment:
 
-| Condition | Fabrication | Substitution | Speed |
-|---|---|---|---|
-| Unconstrained | 82% (49/60) | 8% | 45.1 tok/s |
-| Enum grammar (full registry) | **0%** | **75% (45/60)** | 40.6 tok/s |
-| Span grammar (input IDs only) | 0% | 25% | 40.1 tok/s |
-| Post-hoc filter + retry | 77% (46/60) | 10% | 45.5 tok/s |
+1. **My "near-miss" prompts were all real clauses.** Every number I asked about exists, so the right answer was the number in the prompt, and the grammar returned it 15 times out of 15. I had scored the neighbouring number as correct, which turned a success into a "substitution".
+2. **The grammar had no abstain option.** On fake-topic prompts no clause applies, so any registry ID the model was forced to emit counted as "real but wrong". Thirty of the 45 substitutions were forced by construction.
 
-95% CIs: fabrication [72%, 91%]; substitution [64%, 86%].
+So I fixed the labels, added an explicit `"NONE"` path to the grammar, wrote a new 75-prompt set, and re-ran. (The corrected v1 numbers and the scripts are in the repo.)
 
-### By prompt kind (from `data/runs_full.json`)
+## The v2 experiment
 
-| Prompt kind (n) | Unconstrained | Enum grammar |
+Qwen2.5-1.5B-Instruct, 75 prompts, five conditions, greedy decoding:
+
+- **30 fake topics** (no clause applies, e.g. "drone swarm procurement under $10,000")
+- **15 real clauses** ("What does FAR 52.212-5 cover?")
+- **15 absent numbers** (verified not in the registry; right answer is the closest real clause or an abstention)
+- **15 obscure real topics** (no single gold clause; graded on registry membership)
+
+| Condition | Fabricated (60 prompts with no single right clause) | Good answer (60 judged prompts) |
 |---|---|---|
-| Fake topic (30): no correct clause exists | 29 fabricated, 1 substituted | 30 substituted |
-| Near-miss (15): gold clause known | 5 correct, 4 substituted, 6 fabricated | **0 correct, 15 substituted** |
-| Obscure real (15): no gold, graded on registry membership | 14 fabricated, 1 registry-valid | 15 registry-valid |
+| Free generation | 57/60 (95%) [86%, 98%] | 15/60 (25%) [16%, 37%] |
+| Free + "you may answer NONE" in the prompt | 48/60 (80%) [68%, 88%] | 14/60 (23%) [14%, 35%] |
+| Enum grammar (registry IDs only) | **0/60 (0%) [0%, 6%]** | 17/60 (28%) [18%, 41%] |
+| Enum grammar + `NONE` | **0/60 (0%) [0%, 6%]** | **37/60 (62%) [49%, 73%]** |
+| Post-hoc registry check + one retry | 56/60 (93%) [84%, 97%] | 15/60 (25%) [16%, 37%] |
 
-**Two things this table says that the headline hides.**
+*Good answer* means the right clause on a real-clause prompt, or `NONE` on a fake topic or absent number. Intervals are Wilson 95%.
 
-1. **The enum grammar has no abstain option.** On fake-topic prompts there is no right clause, so any registry ID the model must emit is a "substitution": 30 of the 45 substitutions are forced by construction, and "the model abstains" was never a testable outcome.
-2. **On the 15 answerable prompts, correct fell from 5 to 0.** The constrained model lost the answers the unconstrained model got right. That is the measured part of the result, and it may reflect the grammar or a token-level issue (a Qwen tokenisation vs ID-trie misalignment was seen in GraphProof-QA) rather than something inherent to constraining; it needs a follow-up with an explicit "none" option before it is read as a general finding.
+### By prompt kind
 
-## Reading It Honestly
+| Prompt kind (n) | Enum grammar | Enum grammar + `NONE` |
+|---|---|---|
+| Fake topic (30) | 30 real-but-wrong | **22 abstained**, 8 real-but-wrong |
+| Real clause (15) | 15 correct | **15 wrongly abstained** |
+| Absent number (15) | 13 real-but-wrong, 2 correct | **15 abstained** |
+| Obscure real (15) | 15 registry-valid | 14 registry-valid, 1 abstained |
 
-- The 0% is by construction. Never lead with it.
-- The 75% substitution rate needs reading with the breakdown above: 30 of the 45 are forced because the grammar offers no way to say "none". What is measured is that constrained output passes a registry check while being wrong, and that on the 15 answerable prompts correct fell from 5 to 0. For compliance use cases a wrong-but-valid ID is arguably worse than an obvious fabrication, because it passes a registry check.
-- The cheap post-hoc filter (regex + check + one retry) barely helps: 49→46 fabrications. The retry just invents again.
-- Grammar overhead is ~10% tokens/s. Cheap.
-- Span grammars on inputs without registry IDs emit empty-clause JSON (`{"clause": ,"title": ...}`) — tight grammars need an explicit unknown-token fallback, or they fail differently rather than failing safe.
+## Reading it honestly
 
-## What This Means for LLMOps
+- **The grammar removes fabrication by construction** (0/60 against 57/60 free). The abstain token inside the grammar is used far more than an abstain *instruction* alone: on fake topics 22/30 (73%) against 6/30 (20%).
+- **The abstention is not discrimination.** With the grammar the model said `NONE` on all 30 prompts that name a clause number: the 15 real ones (wrongly) and the 15 absent ones (rightly). It cannot tell a real number from a missing one. The 15/15 on absent numbers is a blanket refusal that happens to be correct there. The 62% overall is real, but it comes from refusing, not from knowing. My guess is that the wording of the abstain instruction ("or the clause does not exist") drives this; I did not test other wordings.
+- **"Correct" on the real-clause prompts means the model copied the number from the prompt**, which free generation also does (15/15). The titles are not grounded: the 15 prompts name 15 different clauses, yet free generation wrote only 4 distinct titles (one of them 12 times) and the grammar 6 (one 9 times). The registry holds IDs only, so I could not grade titles.
+- **A valid ID can carry an invented title.** One grammar output: `52.227-7` with the title "Quantum Cryptography Requirements for Field Radios". "Real-but-wrong" and "registry-valid" mean the ID exists, not that it is the right clause.
+- **The post-hoc filter detects but does not repair.** The check fires and the retry runs, but 56 of 60 final answers are still fabricated. The retry mostly invents again.
 
-Constrained decoding buys **guarantees, not accuracy**. If your threat model is "no invented identifiers in output" (audit trails, citations, filing systems), the grammar is the right tool and costs 10%. If your threat model is "correct identifiers," you still need retrieval, verification, or a human — the grammar just upgraded your hallucinations from detectable to sneaky.
+## What this means for LLMOps
+
+Constrained decoding buys **guarantees, not accuracy**. If your requirement is "no invented identifiers in the output" (audit trails, citations, filing systems), the grammar is the right tool, and its cost in my first run was about 10% tokens/s. If your requirement is "correct identifiers", you still need retrieval or verification: a grammar that guarantees a real ID can attach it to a made-up title or the wrong topic, which is harder to spot than an obviously fake number. And an abstain option inside a grammar needs its own test: measure it on prompts where the right answer is to answer, not only on prompts where it is to refuse.
 
 ## Limitations
 
-- 60 prompts, single small model; substitution rate will vary with scale and domain.
-- Fake topics are deliberately absurd; natural fabrication rates will be lower.
-- Correctness judged only where gold exists (near-miss); obscure topics graded on registry membership alone.
-- No fine-tuning tried — a clause-aware model might substitute less (or more confidently).
-- No abstain option in the enum grammar, so substitution is forced on fake-topic prompts; re-run with an explicit "none" before drawing conclusions about abstention.
-- The near-miss drop from 5 correct to 0 may be a grammar/tokenisation artefact; not investigated.
+- One small model (1.5B), 75 prompts, one prompt template per kind, one greedy run. Rates will change with scale and domain.
+- Fake topics are deliberately absurd, so natural fabrication rates will be lower.
+- Titles are not graded, and obscure-topic answers are graded on registry membership alone.
+- Only one abstain wording was tried, and it probably drives the blanket refusals.
+- No fine-tuning: a clause-aware model might separate real from absent numbers.
+- 2 of the 375 generations hit the 256-token cap.
 
 ---
 
-*Repo: github.com/raihan-js/fedproc-constrained · Data: huggingface.co/datasets/raihan-js/fedproc-constrained-results · 16 tests green.*
+*Repo: github.com/raihan-js/fedproc-constrained · Data: huggingface.co/datasets/raihan-js/fedproc-constrained-results · 29 tests green.*

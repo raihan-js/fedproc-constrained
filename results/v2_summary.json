@@ -1,0 +1,403 @@
+{
+  "model": "data/models/Qwen--Qwen2.5-1.5B-Instruct",
+  "n_prompts": 75,
+  "counts": {
+    "unconstrained": {
+      "fake_topic": {
+        "fabrication": 29,
+        "substitution": 1
+      },
+      "real_clause": {
+        "correct": 15
+      },
+      "absent_number": {
+        "fabrication": 14,
+        "malformed": 1
+      },
+      "obscure_real": {
+        "fabrication": 14,
+        "registry_valid": 1
+      }
+    },
+    "unconstrained_abstain": {
+      "fake_topic": {
+        "fabrication": 21,
+        "malformed": 3,
+        "abstain_correct": 6
+      },
+      "real_clause": {
+        "correct": 8,
+        "abstain_wrong": 7
+      },
+      "absent_number": {
+        "fabrication": 15
+      },
+      "obscure_real": {
+        "fabrication": 12,
+        "registry_valid": 1,
+        "malformed": 2
+      }
+    },
+    "enum": {
+      "fake_topic": {
+        "substitution": 30
+      },
+      "real_clause": {
+        "correct": 15
+      },
+      "absent_number": {
+        "substitution": 13,
+        "correct": 2
+      },
+      "obscure_real": {
+        "registry_valid": 15
+      }
+    },
+    "enum_abstain": {
+      "fake_topic": {
+        "abstain_correct": 22,
+        "substitution": 8
+      },
+      "real_clause": {
+        "abstain_wrong": 15
+      },
+      "absent_number": {
+        "abstain_correct": 15
+      },
+      "obscure_real": {
+        "registry_valid": 14,
+        "abstain_unjudged": 1
+      }
+    },
+    "posthoc": {
+      "fake_topic": {
+        "fabrication": 29,
+        "substitution": 1
+      },
+      "real_clause": {
+        "correct": 15
+      },
+      "absent_number": {
+        "fabrication": 15
+      },
+      "obscure_real": {
+        "registry_valid": 3,
+        "fabrication": 12
+      }
+    }
+  },
+  "headline": {
+    "unconstrained": {
+      "fabricated_on_non_real_prompts": {
+        "k": 57,
+        "n": 60,
+        "rate": 0.95,
+        "ci95": [
+          0.863,
+          0.983
+        ]
+      },
+      "good_answer_overall": {
+        "k": 15,
+        "n": 60,
+        "rate": 0.25,
+        "ci95": [
+          0.158,
+          0.372
+        ]
+      },
+      "abstain_correct_fake_topic": {
+        "k": 0,
+        "n": 30,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.114
+        ]
+      },
+      "abstain_correct_absent_number": {
+        "k": 0,
+        "n": 15,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.204
+        ]
+      },
+      "abstain_wrong_real_clause": {
+        "k": 0,
+        "n": 15,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.204
+        ]
+      },
+      "correct_real_clause": {
+        "k": 15,
+        "n": 15,
+        "rate": 1.0,
+        "ci95": [
+          0.796,
+          1.0
+        ]
+      },
+      "hit_token_cap": 1
+    },
+    "unconstrained_abstain": {
+      "fabricated_on_non_real_prompts": {
+        "k": 48,
+        "n": 60,
+        "rate": 0.8,
+        "ci95": [
+          0.682,
+          0.882
+        ]
+      },
+      "good_answer_overall": {
+        "k": 14,
+        "n": 60,
+        "rate": 0.233,
+        "ci95": [
+          0.144,
+          0.354
+        ]
+      },
+      "abstain_correct_fake_topic": {
+        "k": 6,
+        "n": 30,
+        "rate": 0.2,
+        "ci95": [
+          0.095,
+          0.373
+        ]
+      },
+      "abstain_correct_absent_number": {
+        "k": 0,
+        "n": 15,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.204
+        ]
+      },
+      "abstain_wrong_real_clause": {
+        "k": 7,
+        "n": 15,
+        "rate": 0.467,
+        "ci95": [
+          0.248,
+          0.699
+        ]
+      },
+      "correct_real_clause": {
+        "k": 8,
+        "n": 15,
+        "rate": 0.533,
+        "ci95": [
+          0.301,
+          0.752
+        ]
+      },
+      "hit_token_cap": 0
+    },
+    "enum": {
+      "fabricated_on_non_real_prompts": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06
+        ]
+      },
+      "good_answer_overall": {
+        "k": 17,
+        "n": 60,
+        "rate": 0.283,
+        "ci95": [
+          0.185,
+          0.408
+        ]
+      },
+      "abstain_correct_fake_topic": {
+        "k": 0,
+        "n": 30,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.114
+        ]
+      },
+      "abstain_correct_absent_number": {
+        "k": 0,
+        "n": 15,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.204
+        ]
+      },
+      "abstain_wrong_real_clause": {
+        "k": 0,
+        "n": 15,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.204
+        ]
+      },
+      "correct_real_clause": {
+        "k": 15,
+        "n": 15,
+        "rate": 1.0,
+        "ci95": [
+          0.796,
+          1.0
+        ]
+      },
+      "hit_token_cap": 0
+    },
+    "enum_abstain": {
+      "fabricated_on_non_real_prompts": {
+        "k": 0,
+        "n": 60,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.06
+        ]
+      },
+      "good_answer_overall": {
+        "k": 37,
+        "n": 60,
+        "rate": 0.617,
+        "ci95": [
+          0.49,
+          0.729
+        ]
+      },
+      "abstain_correct_fake_topic": {
+        "k": 22,
+        "n": 30,
+        "rate": 0.733,
+        "ci95": [
+          0.556,
+          0.858
+        ]
+      },
+      "abstain_correct_absent_number": {
+        "k": 15,
+        "n": 15,
+        "rate": 1.0,
+        "ci95": [
+          0.796,
+          1.0
+        ]
+      },
+      "abstain_wrong_real_clause": {
+        "k": 15,
+        "n": 15,
+        "rate": 1.0,
+        "ci95": [
+          0.796,
+          1.0
+        ]
+      },
+      "correct_real_clause": {
+        "k": 0,
+        "n": 15,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.204
+        ]
+      },
+      "hit_token_cap": 0
+    },
+    "posthoc": {
+      "fabricated_on_non_real_prompts": {
+        "k": 56,
+        "n": 60,
+        "rate": 0.933,
+        "ci95": [
+          0.841,
+          0.974
+        ]
+      },
+      "good_answer_overall": {
+        "k": 15,
+        "n": 60,
+        "rate": 0.25,
+        "ci95": [
+          0.158,
+          0.372
+        ]
+      },
+      "abstain_correct_fake_topic": {
+        "k": 0,
+        "n": 30,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.114
+        ]
+      },
+      "abstain_correct_absent_number": {
+        "k": 0,
+        "n": 15,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.204
+        ]
+      },
+      "abstain_wrong_real_clause": {
+        "k": 0,
+        "n": 15,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.204
+        ]
+      },
+      "correct_real_clause": {
+        "k": 15,
+        "n": 15,
+        "rate": 1.0,
+        "ci95": [
+          0.796,
+          1.0
+        ]
+      },
+      "hit_token_cap": 1
+    }
+  },
+  "title_diversity_real_clause": {
+    "unconstrained": {
+      "n_correct_ids": 15,
+      "distinct_titles": 4,
+      "most_common_title_count": 12
+    },
+    "unconstrained_abstain": {
+      "n_correct_ids": 8,
+      "distinct_titles": 1,
+      "most_common_title_count": 8
+    },
+    "enum": {
+      "n_correct_ids": 15,
+      "distinct_titles": 6,
+      "most_common_title_count": 9
+    },
+    "enum_abstain": {
+      "n_correct_ids": 0,
+      "distinct_titles": 0,
+      "most_common_title_count": 0
+    },
+    "posthoc": {
+      "n_correct_ids": 15,
+      "distinct_titles": 4,
+      "most_common_title_count": 12
+    }
+  }
+}

@@ -13,7 +13,7 @@ The first version of this README reported "0% fabrication but 75% substitution".
 1. **The "near-miss" prompts were all real clauses.** They asked "What does FAR 52.212-5 cover? If no such clause exists, give the closest real clause" and scored the *neighbouring* number as correct. All 15 numbers asked about exist in the registry, so the right answer is the number in the prompt, which the grammar returned 15 of 15 times (free generation: 2 of 15). The 15 correct answers had been counted as substitutions.
 2. **The grammar has no abstain option.** On the 30 fake-topic prompts no clause applies, so any registry ID the model must emit is "real but wrong": 30 of the substitutions were forced by construction.
 
-`scripts/rescore_v1.py` re-scores the original runs with the corrected labels. A v2 experiment with correctly specified prompts and an abstain option is in `scripts/build_prompts_v2.py` and `scripts/run_v2.py`.
+`scripts/rescore_v1.py` re-scores the original runs with the corrected labels. The v2 experiment (correctly specified prompts, abstain option) has been run; its results are below.
 
 ## Results: v1 runs, re-scored (Qwen2.5-1.5B-Instruct, 60 prompts)
 
@@ -31,18 +31,47 @@ The first version of this README reported "0% fabrication but 75% substitution".
 
 Also fixed in v2: v1 counted answers like "FAR 252.225-7043" as fabrications because the `FAR ` prefix was not stripped before the registry check.
 
-## v2 (abstain option)
+## Results: v2 (abstain option; Qwen2.5-1.5B-Instruct, 75 prompts, 2026-10-05)
 
-75 prompts: 30 fake topics, 15 real clauses, 15 absent numbers (verified not in the registry, gold = the closest real clause or an abstention), 15 obscure real topics. Five conditions: free, free + abstain allowed, enum grammar, enum grammar + `"NONE"` allowed, post-hoc filter. Outcomes: `correct`, `abstain_correct`, `abstain_wrong`, `substitution`, `fabrication`, `registry_valid`, `malformed`. Results are added here after the run.
+75 prompts: 30 fake topics (no clause applies), 15 real clauses ("What does FAR X cover?", X exists), 15 absent numbers (X verified not in the registry; right answer is the closest real clause or an abstention), 15 obscure real topics (no gold, graded on registry membership). Five conditions: free generation, free + abstain allowed, enum grammar, enum grammar + `"NONE"` allowed, post-hoc filter + retry. Counts per cell are in `results/v2_summary.json`; per-item responses in `results/runs_v2.json`.
+
+| Prompt kind (n) | Free | Free + abstain prompt | Enum grammar | Enum grammar + `NONE` | Post-hoc + retry |
+|---|---|---|---|---|---|
+| Fake topic (30) | 29 fabricated, 1 real-but-wrong | 21 fabricated, 6 abstained, 3 malformed | 30 real-but-wrong | **22 abstained**, 8 real-but-wrong | 29 fabricated, 1 real-but-wrong |
+| Real clause (15) | 15 correct | 8 correct, 7 wrongly abstained | 15 correct | **15 wrongly abstained** | 15 correct |
+| Absent number (15) | 14 fabricated, 1 malformed | 15 fabricated | 13 real-but-wrong, 2 correct | **15 abstained** | 15 fabricated |
+| Obscure real (15) | 14 fabricated, 1 valid | 12 fabricated, 1 valid, 2 malformed | 15 valid | 14 valid, 1 abstained | 12 fabricated, 3 valid |
+
+Headline rates with Wilson 95% intervals (`scripts/summarize_v2.py`):
+
+| Condition | Fabricated, 60 prompts with no single right clause to cite | Good answer on the 60 judged prompts (correct or rightly abstained) |
+|---|---|---|
+| Free | 57/60 (95%) [86%, 98%] | 15/60 (25%) [16%, 37%] |
+| Free + abstain prompt | 48/60 (80%) [68%, 88%] | 14/60 (23%) [14%, 35%] |
+| Enum grammar | **0/60 (0%) [0%, 6%]** | 17/60 (28%) [18%, 41%] |
+| Enum grammar + `NONE` | **0/60 (0%) [0%, 6%]** | **37/60 (62%) [49%, 73%]** |
+| Post-hoc + retry | 56/60 (93%) [84%, 97%] | 15/60 (25%) [16%, 37%] |
+
+What this does and does not show:
+
+- **The grammar removes fabrication by construction** (0/60 vs 57/60), and an abstain token inside the grammar is used far more than an abstain instruction alone: on fake topics 22/30 (73%) vs 6/30 (20%).
+- **The abstention is not discrimination.** With the grammar, the model answered `NONE` on all 30 prompts that name a clause number, the 15 real ones (wrongly) and the 15 absent ones (rightly). It cannot tell a real number from a missing one, so the 15/15 on absent numbers is a blanket refusal that happens to be right there. The 62% overall is real, but it comes from refusing, not from knowing.
+- **"Correct" on the real-clause prompts means the model repeated the number from the prompt**, which free generation does as well (15/15). The titles are not grounded: the 15 prompts name 15 different clauses, yet free generation writes only 4 distinct titles (one of them 12 times) and the grammar 6 (one 9 times). The registry holds IDs only, so titles cannot be graded.
+- **A valid ID can carry an invented title.** Example from the grammar run: `52.227-7` with the title "Quantum Cryptography Requirements for Field Radios". `registry_valid` and `real-but-wrong` mean the ID exists, not that it is the right clause.
+- **The post-hoc filter detects but does not repair.** The registry check fires and the retry runs, but 56/60 final answers are still fabricated.
+- 2 of the 375 generations (1 free, 1 post-hoc) hit the 256-token cap (`hit_cap` in the per-item file).
 
 ```bash
 PYTHONPATH=src:scripts python scripts/build_prompts_v2.py
 PYTHONPATH=src python scripts/run_v2.py            # needs a GPU and the Qwen2.5-1.5B-Instruct weights
+python scripts/summarize_v2.py                     # tables above, Wilson intervals, title diversity
 ```
 
 ## Limitations
 
-- 60 (v1) or 75 (v2) prompts, one small model; rates will vary with scale and domain.
+- 60 (v1) or 75 (v2) prompts, one small model, one prompt template per kind, one run (greedy decoding); rates will vary with scale and domain.
+- The abstain instruction's wording ("or the clause does not exist") probably drives the blanket refusals; a differently worded abstain prompt was not tried.
+- Titles are not graded (the registry has IDs only).
 - Fake topics are deliberately absurd, so natural fabrication rates will be lower.
 - Obscure-real prompts have no single gold clause and are graded on registry membership alone.
 - No fine-tuning was tried.
