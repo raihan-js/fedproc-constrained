@@ -2,6 +2,8 @@
 
 ![FedProc-Constrained results](images/fedproc.png)
 
+Write-up: [A Grammar Stopped My Model Inventing FAR Clauses. It Also Made It Refuse the Real Ones](https://dev.to/raihan-js/a-grammar-stopped-my-model-inventing-far-clauses-it-also-made-it-refuse-the-real-ones-59ap)
+
 What does a clause hallucination turn into when decoding makes it impossible?
 
 Compiles the FAR/DFARS registry (1,128 raw entries, 1,056 distinct canonical clause IDs) into an xgrammar decoding grammar, so a small LLM cannot output a nonexistent clause number, and measures what it does instead, and what the grammar costs in speed.
